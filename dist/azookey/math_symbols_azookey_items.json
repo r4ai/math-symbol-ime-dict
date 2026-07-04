@@ -1,0 +1,4702 @@
+{
+  "items": [
+    {
+      "id": "9077c306-f22b-599f-b55f-bbfc34edc1e2",
+      "word": "∧",
+      "reading": "land",
+      "hint": "U+2227 LOGICAL AND"
+    },
+    {
+      "id": "5d021ad5-93a8-5d20-b5e1-48b97461e849",
+      "word": "∧",
+      "reading": "and",
+      "hint": "U+2227 LOGICAL AND"
+    },
+    {
+      "id": "01e3a019-04c6-58c0-8a62-f8076ab65c22",
+      "word": "∧",
+      "reading": "wedge",
+      "hint": "U+2227 LOGICAL AND"
+    },
+    {
+      "id": "4b7d2327-0c92-53a6-ba1e-f38b404381dc",
+      "word": "∧",
+      "reading": "logicaland",
+      "hint": "U+2227 LOGICAL AND"
+    },
+    {
+      "id": "bb47fad3-fc16-52d0-ae36-e00d9e6deb9e",
+      "word": "∧",
+      "reading": "conjunction",
+      "hint": "U+2227 LOGICAL AND"
+    },
+    {
+      "id": "9b87b2f6-24e5-57c1-9f36-7a10611ba7ab",
+      "word": "∨",
+      "reading": "lor",
+      "hint": "U+2228 LOGICAL OR"
+    },
+    {
+      "id": "72536e83-7ecd-5c26-91c3-bb18165b0c70",
+      "word": "∨",
+      "reading": "or",
+      "hint": "U+2228 LOGICAL OR"
+    },
+    {
+      "id": "0be53097-35c0-5ceb-bd63-aabf864cf3f4",
+      "word": "∨",
+      "reading": "vee",
+      "hint": "U+2228 LOGICAL OR"
+    },
+    {
+      "id": "c90e5ab6-e7f4-58ed-90e8-8f8b5ef4b8b0",
+      "word": "∨",
+      "reading": "logicalor",
+      "hint": "U+2228 LOGICAL OR"
+    },
+    {
+      "id": "35d9f1bc-787c-54eb-a37f-5ec73c56c023",
+      "word": "∨",
+      "reading": "disjunction",
+      "hint": "U+2228 LOGICAL OR"
+    },
+    {
+      "id": "488edbb2-32e9-5432-94cb-9b0f593ca316",
+      "word": "⋀",
+      "reading": "bigwedge",
+      "hint": "U+22C0 N-ARY LOGICAL AND"
+    },
+    {
+      "id": "7581292b-4da7-521d-95fa-bbff6da32d10",
+      "word": "⋀",
+      "reading": "andbig",
+      "hint": "U+22C0 N-ARY LOGICAL AND"
+    },
+    {
+      "id": "07ac9190-2083-5a6d-9564-a30d81a7f993",
+      "word": "⋁",
+      "reading": "bigvee",
+      "hint": "U+22C1 N-ARY LOGICAL OR"
+    },
+    {
+      "id": "70421744-c52a-56ed-8f35-a994b31ddf01",
+      "word": "⋁",
+      "reading": "orbig",
+      "hint": "U+22C1 N-ARY LOGICAL OR"
+    },
+    {
+      "id": "83662712-3af7-52ef-8118-eb115109d5c0",
+      "word": "¬",
+      "reading": "neg",
+      "hint": "U+00AC NOT SIGN"
+    },
+    {
+      "id": "591e7ac7-824c-52f0-a486-e08edca6e234",
+      "word": "¬",
+      "reading": "not",
+      "hint": "U+00AC NOT SIGN"
+    },
+    {
+      "id": "a2a56c50-f2fe-5337-a331-55202264f85c",
+      "word": "¬",
+      "reading": "lnot",
+      "hint": "U+00AC NOT SIGN"
+    },
+    {
+      "id": "fefbdf26-cede-5529-97f8-f2cef2e01b26",
+      "word": "¬",
+      "reading": "notop",
+      "hint": "U+00AC NOT SIGN"
+    },
+    {
+      "id": "b39da1c1-a6fe-53a1-abf1-dcf5c2459543",
+      "word": "∀",
+      "reading": "forall",
+      "hint": "U+2200 FOR ALL"
+    },
+    {
+      "id": "814e25fe-a9a7-5026-be7b-582fe0a0c41b",
+      "word": "∀",
+      "reading": "all",
+      "hint": "U+2200 FOR ALL"
+    },
+    {
+      "id": "00df8003-d01d-5c20-b813-c9417c2365a1",
+      "word": "∀",
+      "reading": "AA",
+      "hint": "U+2200 FOR ALL"
+    },
+    {
+      "id": "4561f900-205e-54ae-9fd6-757a071eb91f",
+      "word": "∃",
+      "reading": "exists",
+      "hint": "U+2203 THERE EXISTS"
+    },
+    {
+      "id": "a6ad7c4e-a526-5725-b7e4-40375b9433d4",
+      "word": "∃",
+      "reading": "exist",
+      "hint": "U+2203 THERE EXISTS"
+    },
+    {
+      "id": "8070dd7f-357e-5245-837b-ebc345d4e0af",
+      "word": "∃",
+      "reading": "EE",
+      "hint": "U+2203 THERE EXISTS"
+    },
+    {
+      "id": "a23ef5a4-6589-5030-9496-61e4dc6779bb",
+      "word": "∄",
+      "reading": "nexists",
+      "hint": "U+2204 THERE DOES NOT EXIST"
+    },
+    {
+      "id": "0249280e-bd06-56de-9111-86c4d744e51b",
+      "word": "∄",
+      "reading": "notexists",
+      "hint": "U+2204 THERE DOES NOT EXIST"
+    },
+    {
+      "id": "9d795ad6-5b17-55cd-b757-45d0c262abf7",
+      "word": "⇒",
+      "reading": "implies",
+      "hint": "U+21D2 RIGHTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "4342b0e9-0c3a-5049-94b0-635db63f4aab",
+      "word": "⇒",
+      "reading": "Rightarrow",
+      "hint": "U+21D2 RIGHTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "9bf09680-9247-5b35-bf7e-3daa2769a689",
+      "word": "⇒",
+      "reading": "rArr",
+      "hint": "U+21D2 RIGHTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "f74b1bf0-ceaa-540d-b2b3-0189c941b084",
+      "word": "⇒",
+      "reading": "arrowrdouble",
+      "hint": "U+21D2 RIGHTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "dbb5e050-f09e-5555-a3b7-43c99b3ce77a",
+      "word": "⇐",
+      "reading": "impliedby",
+      "hint": "U+21D0 LEFTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "ec5b667b-621f-5f5f-b4b2-acb8c968de61",
+      "word": "⇐",
+      "reading": "Leftarrow",
+      "hint": "U+21D0 LEFTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "a2483366-da4e-53af-b093-4693a6f706a7",
+      "word": "⇐",
+      "reading": "lArr",
+      "hint": "U+21D0 LEFTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "ddf5c4fd-d328-5172-bc73-0feae0ddc24c",
+      "word": "⇐",
+      "reading": "arrowldouble",
+      "hint": "U+21D0 LEFTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "5a16da0c-5bfb-5d29-b52f-aaba21b29aea",
+      "word": "⇔",
+      "reading": "iff",
+      "hint": "U+21D4 LEFT RIGHT DOUBLE ARROW"
+    },
+    {
+      "id": "2d9855a9-0d2a-5ded-8235-c9d203e59005",
+      "word": "⇔",
+      "reading": "Leftrightarrow",
+      "hint": "U+21D4 LEFT RIGHT DOUBLE ARROW"
+    },
+    {
+      "id": "201bf88b-8380-51dd-b9b5-f0985056194e",
+      "word": "⇔",
+      "reading": "hArr",
+      "hint": "U+21D4 LEFT RIGHT DOUBLE ARROW"
+    },
+    {
+      "id": "59b2c04a-0a75-56de-96fa-d2583b1877af",
+      "word": "⇔",
+      "reading": "equivarrow",
+      "hint": "U+21D4 LEFT RIGHT DOUBLE ARROW"
+    },
+    {
+      "id": "d4c97c88-e88d-5bdd-8eb7-8e8ec2180862",
+      "word": "→",
+      "reading": "to",
+      "hint": "U+2192 RIGHTWARDS ARROW"
+    },
+    {
+      "id": "79fc7eb4-f75b-5422-a436-981732c2aefe",
+      "word": "→",
+      "reading": "rightarrow",
+      "hint": "U+2192 RIGHTWARDS ARROW"
+    },
+    {
+      "id": "165f2de0-eec6-55b2-baf3-fb172397dc48",
+      "word": "→",
+      "reading": "rarr",
+      "hint": "U+2192 RIGHTWARDS ARROW"
+    },
+    {
+      "id": "4fa826f1-f56e-5a28-8d19-7a3e7c7f34c3",
+      "word": "→",
+      "reading": "arrowr",
+      "hint": "U+2192 RIGHTWARDS ARROW"
+    },
+    {
+      "id": "dddc7e89-952e-5ec3-bf79-8dc08f9597e1",
+      "word": "←",
+      "reading": "from",
+      "hint": "U+2190 LEFTWARDS ARROW"
+    },
+    {
+      "id": "ac8e0b9f-57f3-5598-8ee3-f40932af849a",
+      "word": "←",
+      "reading": "leftarrow",
+      "hint": "U+2190 LEFTWARDS ARROW"
+    },
+    {
+      "id": "aa342123-8eab-5d0f-805c-7a577f6402ef",
+      "word": "←",
+      "reading": "larr",
+      "hint": "U+2190 LEFTWARDS ARROW"
+    },
+    {
+      "id": "6b2d1dc1-2c1e-5795-9150-715db3b0b36d",
+      "word": "←",
+      "reading": "arrowl",
+      "hint": "U+2190 LEFTWARDS ARROW"
+    },
+    {
+      "id": "860c5319-ac9b-53ee-9021-c48e8909deac",
+      "word": "↔",
+      "reading": "leftrightarrow",
+      "hint": "U+2194 LEFT RIGHT ARROW"
+    },
+    {
+      "id": "d359c23d-810f-53cc-a782-671a9121fd3f",
+      "word": "↔",
+      "reading": "harr",
+      "hint": "U+2194 LEFT RIGHT ARROW"
+    },
+    {
+      "id": "207ea0fd-e788-55ba-a11a-c45becd8054d",
+      "word": "↔",
+      "reading": "arrowlr",
+      "hint": "U+2194 LEFT RIGHT ARROW"
+    },
+    {
+      "id": "921ae9fa-ad8a-5ddc-b013-6f45f455a254",
+      "word": "↦",
+      "reading": "mapsto",
+      "hint": "U+21A6 RIGHTWARDS ARROW FROM BAR"
+    },
+    {
+      "id": "a53e6374-685c-5622-8bc5-c537b68952d5",
+      "word": "↦",
+      "reading": "mapstoarrow",
+      "hint": "U+21A6 RIGHTWARDS ARROW FROM BAR"
+    },
+    {
+      "id": "61861a1f-d64f-5cd0-b9b6-f613c5829864",
+      "word": "↦",
+      "reading": "arrowrbar",
+      "hint": "U+21A6 RIGHTWARDS ARROW FROM BAR"
+    },
+    {
+      "id": "0519e2ba-7d5b-5f89-9eb4-ef6f73a18a34",
+      "word": "↤",
+      "reading": "mapsfrom",
+      "hint": "U+21A4 LEFTWARDS ARROW FROM BAR"
+    },
+    {
+      "id": "61d52bc8-8ea1-5216-aac8-897261e98cbb",
+      "word": "↤",
+      "reading": "arrowlbar",
+      "hint": "U+21A4 LEFTWARDS ARROW FROM BAR"
+    },
+    {
+      "id": "0a0683b0-57e1-5be8-af98-1d8ab4fe2ef7",
+      "word": "⊤",
+      "reading": "top",
+      "hint": "U+22A4 DOWN TACK"
+    },
+    {
+      "id": "05c6ad6b-606c-582e-9087-040662d51b52",
+      "word": "⊤",
+      "reading": "TT",
+      "hint": "U+22A4 DOWN TACK"
+    },
+    {
+      "id": "a848b179-f321-56b3-aadb-11947faa6d6d",
+      "word": "⊤",
+      "reading": "true",
+      "hint": "U+22A4 DOWN TACK"
+    },
+    {
+      "id": "ba5bd210-c2df-51ef-8709-f2251f48c31e",
+      "word": "⊥",
+      "reading": "bot",
+      "hint": "U+22A5 UP TACK"
+    },
+    {
+      "id": "7a189929-f7ad-58b6-8402-05be4faeeb34",
+      "word": "⊥",
+      "reading": "bottom",
+      "hint": "U+22A5 UP TACK"
+    },
+    {
+      "id": "ae32bb70-914d-52da-b3db-3335e69a7e98",
+      "word": "⊥",
+      "reading": "false",
+      "hint": "U+22A5 UP TACK"
+    },
+    {
+      "id": "05099bc6-e73b-5d01-a0c4-e96a99425aaf",
+      "word": "⊢",
+      "reading": "vdash",
+      "hint": "U+22A2 RIGHT TACK"
+    },
+    {
+      "id": "06fdd87c-d76b-5aa0-855f-ca9fcaff9dfd",
+      "word": "⊢",
+      "reading": "turnstile",
+      "hint": "U+22A2 RIGHT TACK"
+    },
+    {
+      "id": "5b5c91ad-7b55-591f-b6f3-3dcd49aee0b0",
+      "word": "⊢",
+      "reading": "proves",
+      "hint": "U+22A2 RIGHT TACK"
+    },
+    {
+      "id": "3146a1e6-6efa-57be-996d-acfb49babef2",
+      "word": "⊣",
+      "reading": "dashv",
+      "hint": "U+22A3 LEFT TACK"
+    },
+    {
+      "id": "2528eeca-a7bf-55f9-865f-d81b662d7d93",
+      "word": "⊨",
+      "reading": "models",
+      "hint": "U+22A8 TRUE"
+    },
+    {
+      "id": "5c1fcdbf-f05c-565b-9154-7553996be2dd",
+      "word": "⊨",
+      "reading": "entails",
+      "hint": "U+22A8 TRUE"
+    },
+    {
+      "id": "ed8d0b19-40ed-59cf-82c7-9082528d1091",
+      "word": "⊬",
+      "reading": "nvdash",
+      "hint": "U+22AC DOES NOT PROVE"
+    },
+    {
+      "id": "eccebdcb-8e81-578b-a096-bbb9037bd642",
+      "word": "⊭",
+      "reading": "notmodels",
+      "hint": "U+22AD NOT TRUE"
+    },
+    {
+      "id": "14bb8617-f8c3-55fc-b985-68c786621213",
+      "word": "∴",
+      "reading": "therefore",
+      "hint": "U+2234 THEREFORE"
+    },
+    {
+      "id": "d8fa4d83-00de-5c8f-855b-5a780e1135bf",
+      "word": "∵",
+      "reading": "because",
+      "hint": "U+2235 BECAUSE"
+    },
+    {
+      "id": "5f93fe87-abc9-5acb-8ce1-f17a4b06ae93",
+      "word": "=",
+      "reading": "eq",
+      "hint": "U+003D EQUALS SIGN"
+    },
+    {
+      "id": "0533c19c-cf80-591b-a5fa-042676f82659",
+      "word": "=",
+      "reading": "equals",
+      "hint": "U+003D EQUALS SIGN"
+    },
+    {
+      "id": "2cf9e75a-36b1-57be-bb36-864da98c7566",
+      "word": "≠",
+      "reading": "neq",
+      "hint": "U+2260 NOT EQUAL TO"
+    },
+    {
+      "id": "3992fb0f-2d85-5712-b962-c074368cf35c",
+      "word": "≠",
+      "reading": "ne",
+      "hint": "U+2260 NOT EQUAL TO"
+    },
+    {
+      "id": "96de18a5-aedd-5961-a2d1-38bca8a0640c",
+      "word": "≠",
+      "reading": "noteq",
+      "hint": "U+2260 NOT EQUAL TO"
+    },
+    {
+      "id": "2898e7aa-bb39-5725-9e68-d044fea1b632",
+      "word": "≠",
+      "reading": "eqnot",
+      "hint": "U+2260 NOT EQUAL TO"
+    },
+    {
+      "id": "bed0c0d1-4c2b-583b-a988-e484b5e6aa47",
+      "word": "<",
+      "reading": "lt",
+      "hint": "U+003C LESS-THAN SIGN"
+    },
+    {
+      "id": "702caff6-9d0e-5eb5-9f52-20fb0c8cc72b",
+      "word": ">",
+      "reading": "gt",
+      "hint": "U+003E GREATER-THAN SIGN"
+    },
+    {
+      "id": "79b89533-0f4b-5fbb-a160-062c3166b374",
+      "word": "≤",
+      "reading": "le",
+      "hint": "U+2264 LESS-THAN OR EQUAL TO"
+    },
+    {
+      "id": "bc14dd28-875f-5cd7-8e29-81d4bcbe710f",
+      "word": "≤",
+      "reading": "leq",
+      "hint": "U+2264 LESS-THAN OR EQUAL TO"
+    },
+    {
+      "id": "d51005ff-9c33-567a-b8ec-207499bcf856",
+      "word": "≤",
+      "reading": "lesseq",
+      "hint": "U+2264 LESS-THAN OR EQUAL TO"
+    },
+    {
+      "id": "d23a6d25-f02d-5f7e-ba03-51ef65469c8a",
+      "word": "≤",
+      "reading": "lte",
+      "hint": "U+2264 LESS-THAN OR EQUAL TO"
+    },
+    {
+      "id": "80aa7bbb-0272-5eb7-9e30-5e1f2c2f5786",
+      "word": "≥",
+      "reading": "ge",
+      "hint": "U+2265 GREATER-THAN OR EQUAL TO"
+    },
+    {
+      "id": "09d36fa5-3704-584f-be00-83a2681684b4",
+      "word": "≥",
+      "reading": "geq",
+      "hint": "U+2265 GREATER-THAN OR EQUAL TO"
+    },
+    {
+      "id": "909a50ea-4f20-594c-88c2-aa9dc30153a0",
+      "word": "≥",
+      "reading": "greateq",
+      "hint": "U+2265 GREATER-THAN OR EQUAL TO"
+    },
+    {
+      "id": "12cf5d92-0415-55bb-967e-13acb222e179",
+      "word": "≥",
+      "reading": "gte",
+      "hint": "U+2265 GREATER-THAN OR EQUAL TO"
+    },
+    {
+      "id": "87e74573-b708-55f6-a235-0cd7be862b6d",
+      "word": "≪",
+      "reading": "ll",
+      "hint": "U+226A MUCH LESS-THAN"
+    },
+    {
+      "id": "c862e1cb-8714-5b64-b8a4-f28fc3ecc53a",
+      "word": "≪",
+      "reading": "muchless",
+      "hint": "U+226A MUCH LESS-THAN"
+    },
+    {
+      "id": "00474295-400a-5c0b-ac2c-38f44d71499d",
+      "word": "≪",
+      "reading": "mlt",
+      "hint": "U+226A MUCH LESS-THAN"
+    },
+    {
+      "id": "4c15e5c7-73d5-58e9-bddc-0ff3ee289db6",
+      "word": "≫",
+      "reading": "gg",
+      "hint": "U+226B MUCH GREATER-THAN"
+    },
+    {
+      "id": "5b6dac60-84ea-579e-86a3-df31245f1962",
+      "word": "≫",
+      "reading": "muchgreater",
+      "hint": "U+226B MUCH GREATER-THAN"
+    },
+    {
+      "id": "faffa641-323f-536a-b17b-d15f1f8a99cd",
+      "word": "≫",
+      "reading": "mgt",
+      "hint": "U+226B MUCH GREATER-THAN"
+    },
+    {
+      "id": "9035725f-a361-570d-b2b5-ce556eade3ef",
+      "word": "≺",
+      "reading": "prec",
+      "hint": "U+227A PRECEDES"
+    },
+    {
+      "id": "d08bd634-d9a1-531f-91c7-16166818cf6a",
+      "word": "≻",
+      "reading": "succ",
+      "hint": "U+227B SUCCEEDS"
+    },
+    {
+      "id": "aa4e70c4-c4c8-525d-8de7-76da121a8173",
+      "word": "≼",
+      "reading": "preceq",
+      "hint": "U+227C PRECEDES OR EQUAL TO"
+    },
+    {
+      "id": "b867fd9b-8359-535d-b390-d2b4a6093df8",
+      "word": "≽",
+      "reading": "succeq",
+      "hint": "U+227D SUCCEEDS OR EQUAL TO"
+    },
+    {
+      "id": "b01142e7-67c6-572c-acef-4b6f3debbfd1",
+      "word": "∼",
+      "reading": "sim",
+      "hint": "U+223C TILDE OPERATOR"
+    },
+    {
+      "id": "051fc21e-2e2f-5390-8131-7d00a8efd1af",
+      "word": "∼",
+      "reading": "tildeop",
+      "hint": "U+223C TILDE OPERATOR"
+    },
+    {
+      "id": "abe03842-2ada-540c-9602-ae3f4f6156a4",
+      "word": "≁",
+      "reading": "nsim",
+      "hint": "U+2241 NOT TILDE"
+    },
+    {
+      "id": "f54e0113-7dad-5236-b245-0102a7535ddf",
+      "word": "≃",
+      "reading": "simeq",
+      "hint": "U+2243 ASYMPTOTICALLY EQUAL TO"
+    },
+    {
+      "id": "5b329e69-e37c-583e-acbb-4b644cf2b4f3",
+      "word": "≅",
+      "reading": "cong",
+      "hint": "U+2245 APPROXIMATELY EQUAL TO"
+    },
+    {
+      "id": "23cdb2d4-59ac-584a-ae89-d05883b3decc",
+      "word": "≇",
+      "reading": "ncong",
+      "hint": "U+2247 NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO"
+    },
+    {
+      "id": "55612b41-8d05-5711-9985-9f28a4b216d1",
+      "word": "≈",
+      "reading": "approx",
+      "hint": "U+2248 ALMOST EQUAL TO"
+    },
+    {
+      "id": "eda399d3-001c-5001-ac9b-218ff6aa8b69",
+      "word": "≈",
+      "reading": "almosteq",
+      "hint": "U+2248 ALMOST EQUAL TO"
+    },
+    {
+      "id": "ff214ed8-d6c5-55cd-a82d-24056abbd3f2",
+      "word": "≉",
+      "reading": "napprox",
+      "hint": "U+2249 NOT ALMOST EQUAL TO"
+    },
+    {
+      "id": "0fc1483d-02ae-5c9a-a4dc-591c827206bc",
+      "word": "≊",
+      "reading": "approxeq",
+      "hint": "U+224A ALMOST EQUAL OR EQUAL TO"
+    },
+    {
+      "id": "0a473895-3143-5823-a25d-b6d8812f2ae0",
+      "word": "≡",
+      "reading": "equiv",
+      "hint": "U+2261 IDENTICAL TO"
+    },
+    {
+      "id": "b1d4160f-b6f5-54f0-87c4-bdba172375bb",
+      "word": "≡",
+      "reading": "identical",
+      "hint": "U+2261 IDENTICAL TO"
+    },
+    {
+      "id": "eb1c06ef-a8a7-51fd-b2b6-bb0adfd0c62c",
+      "word": "≢",
+      "reading": "nequiv",
+      "hint": "U+2262 NOT IDENTICAL TO"
+    },
+    {
+      "id": "f82adde4-75b7-54bd-bc00-ffeabb75d490",
+      "word": "∝",
+      "reading": "prop",
+      "hint": "U+221D PROPORTIONAL TO"
+    },
+    {
+      "id": "24d4400c-8ccb-5de7-8338-5b8d8d289822",
+      "word": "∝",
+      "reading": "propto",
+      "hint": "U+221D PROPORTIONAL TO"
+    },
+    {
+      "id": "d4aefc57-b007-5cd8-8d3c-25baa1e58ab2",
+      "word": "∝",
+      "reading": "proportional",
+      "hint": "U+221D PROPORTIONAL TO"
+    },
+    {
+      "id": "60f0a6bf-7234-5633-9fa7-98709ec6e2cf",
+      "word": "∥",
+      "reading": "parallel",
+      "hint": "U+2225 PARALLEL TO"
+    },
+    {
+      "id": "7ae09a71-ff38-53e5-988b-843730c9fd9c",
+      "word": "∦",
+      "reading": "nparallel",
+      "hint": "U+2226 NOT PARALLEL TO"
+    },
+    {
+      "id": "f4972677-89c6-5c41-bcec-7281a25740f2",
+      "word": "∦",
+      "reading": "notparallel",
+      "hint": "U+2226 NOT PARALLEL TO"
+    },
+    {
+      "id": "cf41fda2-a432-5e1e-9cb2-789fa1236aaa",
+      "word": "⟂",
+      "reading": "perp",
+      "hint": "U+27C2 PERPENDICULAR"
+    },
+    {
+      "id": "74d3c03a-7c6c-56ee-87d0-7a21e98a26b4",
+      "word": "⟂",
+      "reading": "perpendicular",
+      "hint": "U+27C2 PERPENDICULAR"
+    },
+    {
+      "id": "d33dfee2-b535-5b38-a470-dff66dbe5499",
+      "word": "∣",
+      "reading": "mid",
+      "hint": "U+2223 DIVIDES"
+    },
+    {
+      "id": "26134d9b-628f-5787-bfe9-bcf2d93bb759",
+      "word": "∣",
+      "reading": "divides",
+      "hint": "U+2223 DIVIDES"
+    },
+    {
+      "id": "2a228972-220f-5bc4-b867-10a34f9fd5d5",
+      "word": "∤",
+      "reading": "nmid",
+      "hint": "U+2224 DOES NOT DIVIDE"
+    },
+    {
+      "id": "996b7b3c-18d0-5812-a09c-4da2596c58cb",
+      "word": "∤",
+      "reading": "notdivides",
+      "hint": "U+2224 DOES NOT DIVIDE"
+    },
+    {
+      "id": "26c5521b-8b98-5aa6-a81b-c7c7b9a71622",
+      "word": "≍",
+      "reading": "asymp",
+      "hint": "U+224D EQUIVALENT TO"
+    },
+    {
+      "id": "5266125d-08fb-53c1-806c-550fe6756d2d",
+      "word": "≐",
+      "reading": "doteq",
+      "hint": "U+2250 APPROACHES THE LIMIT"
+    },
+    {
+      "id": "0d8e1313-2124-52a0-a997-e8b38384946f",
+      "word": "≔",
+      "reading": "coloneq",
+      "hint": "U+2254 COLON EQUALS"
+    },
+    {
+      "id": "5f5ed9a5-e1e4-50bd-a6f2-a9ff6c29eb48",
+      "word": "≔",
+      "reading": "assign",
+      "hint": "U+2254 COLON EQUALS"
+    },
+    {
+      "id": "ea8a43ab-f3e1-51ba-a142-118c5f4ced96",
+      "word": "≕",
+      "reading": "eqcolon",
+      "hint": "U+2255 EQUALS COLON"
+    },
+    {
+      "id": "d378f5be-56ef-5b38-b7c2-0b27d194f0e1",
+      "word": "≝",
+      "reading": "defeq",
+      "hint": "U+225D EQUAL TO BY DEFINITION"
+    },
+    {
+      "id": "795d8cdd-be48-56b7-b48e-9c9bcafad16d",
+      "word": "≟",
+      "reading": "measeq",
+      "hint": "U+225F QUESTIONED EQUAL TO"
+    },
+    {
+      "id": "c704fddf-20a5-5403-b21b-9b1cff274613",
+      "word": "≟",
+      "reading": "questeq",
+      "hint": "U+225F QUESTIONED EQUAL TO"
+    },
+    {
+      "id": "c38e4496-631a-5710-b081-c94602af9c90",
+      "word": "∈",
+      "reading": "in",
+      "hint": "U+2208 ELEMENT OF"
+    },
+    {
+      "id": "1fcd4c8f-e407-5518-970d-dd63cf699449",
+      "word": "∈",
+      "reading": "isin",
+      "hint": "U+2208 ELEMENT OF"
+    },
+    {
+      "id": "5be27504-1f1b-5810-ba1c-96de97d8c212",
+      "word": "∈",
+      "reading": "elementof",
+      "hint": "U+2208 ELEMENT OF"
+    },
+    {
+      "id": "6566f448-0b84-56e9-970a-c8553a1faa82",
+      "word": "∉",
+      "reading": "notin",
+      "hint": "U+2209 NOT AN ELEMENT OF"
+    },
+    {
+      "id": "2569e9ef-ba4f-5a88-89f5-cf20ef67e2e0",
+      "word": "∉",
+      "reading": "nin",
+      "hint": "U+2209 NOT AN ELEMENT OF"
+    },
+    {
+      "id": "137b42fa-c0e1-54c1-866e-9e08005fb397",
+      "word": "∉",
+      "reading": "notmember",
+      "hint": "U+2209 NOT AN ELEMENT OF"
+    },
+    {
+      "id": "b7027b3a-6729-5298-97a8-96139d5f0f15",
+      "word": "∋",
+      "reading": "ni",
+      "hint": "U+220B CONTAINS AS MEMBER"
+    },
+    {
+      "id": "537915b2-89e0-5bf1-a262-71d8984a6063",
+      "word": "∋",
+      "reading": "owns",
+      "hint": "U+220B CONTAINS AS MEMBER"
+    },
+    {
+      "id": "a547125b-19b2-5101-ba46-9c4e97a5c415",
+      "word": "∋",
+      "reading": "containsas",
+      "hint": "U+220B CONTAINS AS MEMBER"
+    },
+    {
+      "id": "39f90c85-6a71-530d-899e-40d67a44270d",
+      "word": "∌",
+      "reading": "notni",
+      "hint": "U+220C DOES NOT CONTAIN AS MEMBER"
+    },
+    {
+      "id": "bbc22910-03f5-5d9b-93aa-c5657276a724",
+      "word": "⊂",
+      "reading": "sub",
+      "hint": "U+2282 SUBSET OF"
+    },
+    {
+      "id": "08a56f84-7225-5274-91e0-7d315cbb7259",
+      "word": "⊂",
+      "reading": "subset",
+      "hint": "U+2282 SUBSET OF"
+    },
+    {
+      "id": "01b09e83-9650-5ab8-a63b-9727d3ea3d4e",
+      "word": "⊃",
+      "reading": "sup",
+      "hint": "U+2283 SUPERSET OF"
+    },
+    {
+      "id": "ef0459d5-aa28-513b-a842-8dd79f8299de",
+      "word": "⊃",
+      "reading": "supset",
+      "hint": "U+2283 SUPERSET OF"
+    },
+    {
+      "id": "4db7ca06-2ce7-549e-961b-2b07033badc4",
+      "word": "⊆",
+      "reading": "sube",
+      "hint": "U+2286 SUBSET OF OR EQUAL TO"
+    },
+    {
+      "id": "ed599b04-ad17-5edb-883d-938b7233acae",
+      "word": "⊆",
+      "reading": "subseteq",
+      "hint": "U+2286 SUBSET OF OR EQUAL TO"
+    },
+    {
+      "id": "80d8499b-7a78-5e6e-a7de-14a072673ec0",
+      "word": "⊇",
+      "reading": "supe",
+      "hint": "U+2287 SUPERSET OF OR EQUAL TO"
+    },
+    {
+      "id": "74435b9b-769a-516a-9965-81174b0e55f7",
+      "word": "⊇",
+      "reading": "supseteq",
+      "hint": "U+2287 SUPERSET OF OR EQUAL TO"
+    },
+    {
+      "id": "5afb7298-a2f4-5d05-b56f-bf53a46ebab3",
+      "word": "⊈",
+      "reading": "nsubseteq",
+      "hint": "U+2288 NEITHER A SUBSET OF NOR EQUAL TO"
+    },
+    {
+      "id": "69ea7757-e3d2-59d7-8687-6d09b4fbc17a",
+      "word": "⊉",
+      "reading": "nsupseteq",
+      "hint": "U+2289 NEITHER A SUPERSET OF NOR EQUAL TO"
+    },
+    {
+      "id": "a9e5ba01-88d9-5835-a154-0d03396251c3",
+      "word": "⊊",
+      "reading": "subsetneq",
+      "hint": "U+228A SUBSET OF WITH NOT EQUAL TO"
+    },
+    {
+      "id": "0af76f12-d83f-559d-9b10-a5bbafc37e2a",
+      "word": "⊋",
+      "reading": "supsetneq",
+      "hint": "U+228B SUPERSET OF WITH NOT EQUAL TO"
+    },
+    {
+      "id": "4c87e442-af7a-5d7e-bf44-a4bc8794b07d",
+      "word": "⊏",
+      "reading": "sqsubset",
+      "hint": "U+228F SQUARE IMAGE OF"
+    },
+    {
+      "id": "0479f110-283f-5d43-930c-81da30e561f2",
+      "word": "⊐",
+      "reading": "sqsupset",
+      "hint": "U+2290 SQUARE ORIGINAL OF"
+    },
+    {
+      "id": "e4ebb274-2d0e-556b-8140-63e2b72bf4aa",
+      "word": "⊑",
+      "reading": "sqsubseteq",
+      "hint": "U+2291 SQUARE IMAGE OF OR EQUAL TO"
+    },
+    {
+      "id": "5f5383e7-58bb-5b26-b550-c6bc719841b0",
+      "word": "⊒",
+      "reading": "sqsupseteq",
+      "hint": "U+2292 SQUARE ORIGINAL OF OR EQUAL TO"
+    },
+    {
+      "id": "92c13c83-eda7-5ccd-802a-2fc013cf3dbd",
+      "word": "∪",
+      "reading": "cup",
+      "hint": "U+222A UNION"
+    },
+    {
+      "id": "08f7a113-8c70-55bc-86c7-3a5172ab7dcf",
+      "word": "∪",
+      "reading": "union",
+      "hint": "U+222A UNION"
+    },
+    {
+      "id": "43126d6c-b052-51ff-847d-85cb6b078358",
+      "word": "∩",
+      "reading": "cap",
+      "hint": "U+2229 INTERSECTION"
+    },
+    {
+      "id": "b051b763-8c5e-59fd-9235-84a301a3a995",
+      "word": "∩",
+      "reading": "inter",
+      "hint": "U+2229 INTERSECTION"
+    },
+    {
+      "id": "d78a0af7-8c63-569c-9d71-7e7a40370f23",
+      "word": "∩",
+      "reading": "intersection",
+      "hint": "U+2229 INTERSECTION"
+    },
+    {
+      "id": "c4fed20c-f8a4-5acc-a0ff-17b824aa5977",
+      "word": "⋃",
+      "reading": "bigcup",
+      "hint": "U+22C3 N-ARY UNION"
+    },
+    {
+      "id": "a7aec5f1-e574-58df-926b-c53b5478c1b0",
+      "word": "⋂",
+      "reading": "bigcap",
+      "hint": "U+22C2 N-ARY INTERSECTION"
+    },
+    {
+      "id": "adf16068-e5c6-5f57-95da-84449b0463a7",
+      "word": "∖",
+      "reading": "setminus",
+      "hint": "U+2216 SET MINUS"
+    },
+    {
+      "id": "3196fc04-669e-5567-a859-82884fb81104",
+      "word": "∖",
+      "reading": "smallsetminus",
+      "hint": "U+2216 SET MINUS"
+    },
+    {
+      "id": "c3f78813-41c7-537d-83f7-2398997743d0",
+      "word": "∁",
+      "reading": "complement",
+      "hint": "U+2201 COMPLEMENT"
+    },
+    {
+      "id": "9e54de85-e781-5f70-8a13-e049ecb37466",
+      "word": "∅",
+      "reading": "empty",
+      "hint": "U+2205 EMPTY SET"
+    },
+    {
+      "id": "fd04f5be-1b9b-5362-82fe-94561c4c5e00",
+      "word": "∅",
+      "reading": "emptyset",
+      "hint": "U+2205 EMPTY SET"
+    },
+    {
+      "id": "4a5fab06-e875-5218-9a6f-65f229190f7c",
+      "word": "∅",
+      "reading": "varnothing",
+      "hint": "U+2205 EMPTY SET"
+    },
+    {
+      "id": "394d5707-46c6-5dfd-ab75-b55c473040e4",
+      "word": "℘",
+      "reading": "powerset",
+      "hint": "U+2118 SCRIPT CAPITAL P"
+    },
+    {
+      "id": "3cf4a446-5f3e-59d3-a982-17c7235428f8",
+      "word": "℘",
+      "reading": "wp",
+      "hint": "U+2118 SCRIPT CAPITAL P"
+    },
+    {
+      "id": "9e1a7e76-54a4-56b6-8e36-cfeefcce2472",
+      "word": "⊎",
+      "reading": "uplus",
+      "hint": "U+228E MULTISET UNION"
+    },
+    {
+      "id": "3c1899d5-6ee5-56fd-bacd-2cca85794c2e",
+      "word": "⊎",
+      "reading": "disjointunion",
+      "hint": "U+228E MULTISET UNION"
+    },
+    {
+      "id": "d34716cb-69d9-566a-b34a-3650028825f7",
+      "word": "⊔",
+      "reading": "sqcup",
+      "hint": "U+2294 SQUARE CUP"
+    },
+    {
+      "id": "b50929d6-b048-580c-9973-0362898ee350",
+      "word": "⊓",
+      "reading": "sqcap",
+      "hint": "U+2293 SQUARE CAP"
+    },
+    {
+      "id": "471e9b89-c678-5c03-ad86-1825ed4476a7",
+      "word": "±",
+      "reading": "pm",
+      "hint": "U+00B1 PLUS-MINUS SIGN"
+    },
+    {
+      "id": "c22ed68b-1f05-5d7a-9cc8-b11dcc5ffa63",
+      "word": "±",
+      "reading": "plusminus",
+      "hint": "U+00B1 PLUS-MINUS SIGN"
+    },
+    {
+      "id": "f9d53085-560e-5474-ba06-c5bd9e64f5a2",
+      "word": "∓",
+      "reading": "mp",
+      "hint": "U+2213 MINUS-OR-PLUS SIGN"
+    },
+    {
+      "id": "9bf30e23-3c6b-5f96-b3aa-942d564598fa",
+      "word": "∓",
+      "reading": "minusplus",
+      "hint": "U+2213 MINUS-OR-PLUS SIGN"
+    },
+    {
+      "id": "fba28ea4-b21f-59ef-9e99-8e8a7c8c6f71",
+      "word": "×",
+      "reading": "times",
+      "hint": "U+00D7 MULTIPLICATION SIGN"
+    },
+    {
+      "id": "ee487618-510e-5e4b-94cc-97db7879bc89",
+      "word": "×",
+      "reading": "xx",
+      "hint": "U+00D7 MULTIPLICATION SIGN"
+    },
+    {
+      "id": "a8b9d767-e547-5b49-b282-d98e0d4a20ac",
+      "word": "×",
+      "reading": "mul",
+      "hint": "U+00D7 MULTIPLICATION SIGN"
+    },
+    {
+      "id": "97d47683-f9a0-5bf3-ba11-76ed88c739e5",
+      "word": "÷",
+      "reading": "div",
+      "hint": "U+00F7 DIVISION SIGN"
+    },
+    {
+      "id": "5a02ec2e-0842-53cf-848b-0eb5b0a64b25",
+      "word": "÷",
+      "reading": "divide",
+      "hint": "U+00F7 DIVISION SIGN"
+    },
+    {
+      "id": "9a95e787-c948-51ba-9e96-75826021c709",
+      "word": "⋅",
+      "reading": "cdot",
+      "hint": "U+22C5 DOT OPERATOR"
+    },
+    {
+      "id": "48e2a70a-e3f0-5fa6-a8a6-890b716ae215",
+      "word": "⋅",
+      "reading": "dot",
+      "hint": "U+22C5 DOT OPERATOR"
+    },
+    {
+      "id": "56e2fdda-45c9-5c2d-bdc8-386cb134eb22",
+      "word": "⋅",
+      "reading": "dotop",
+      "hint": "U+22C5 DOT OPERATOR"
+    },
+    {
+      "id": "da125858-b5ff-5e64-83ce-74a2e48753f2",
+      "word": "∙",
+      "reading": "bullet",
+      "hint": "U+2219 BULLET OPERATOR"
+    },
+    {
+      "id": "2c4efb4d-768e-5027-94d9-c948a75e653f",
+      "word": "∗",
+      "reading": "ast",
+      "hint": "U+2217 ASTERISK OPERATOR"
+    },
+    {
+      "id": "a4dae31a-4e08-5744-8b13-267ecaf1cc2e",
+      "word": "∗",
+      "reading": "asterisk",
+      "hint": "U+2217 ASTERISK OPERATOR"
+    },
+    {
+      "id": "8ffb42ac-4ba6-52da-9d68-e8704d9eb78d",
+      "word": "⋆",
+      "reading": "star",
+      "hint": "U+22C6 STAR OPERATOR"
+    },
+    {
+      "id": "c9c3cc9c-d385-5fe1-a6ae-f1978ea38778",
+      "word": "∘",
+      "reading": "circ",
+      "hint": "U+2218 RING OPERATOR"
+    },
+    {
+      "id": "d6d18be3-0942-5080-810b-744244b5eb1d",
+      "word": "∘",
+      "reading": "compose",
+      "hint": "U+2218 RING OPERATOR"
+    },
+    {
+      "id": "9fb633e8-0c50-5a83-b5a9-d6cc3f58435a",
+      "word": "∘",
+      "reading": "comp",
+      "hint": "U+2218 RING OPERATOR"
+    },
+    {
+      "id": "467e8974-04a3-5a6c-90a5-7255050d37f7",
+      "word": "⊕",
+      "reading": "oplus",
+      "hint": "U+2295 CIRCLED PLUS"
+    },
+    {
+      "id": "4d587531-4e9a-5133-bb7b-54b60b454365",
+      "word": "⊖",
+      "reading": "ominus",
+      "hint": "U+2296 CIRCLED MINUS"
+    },
+    {
+      "id": "3b94bf93-3502-5299-b60e-9b98b4483ae1",
+      "word": "⊗",
+      "reading": "otimes",
+      "hint": "U+2297 CIRCLED TIMES"
+    },
+    {
+      "id": "79019bb9-7bed-5172-95ac-0d520c9ef249",
+      "word": "⊘",
+      "reading": "oslash",
+      "hint": "U+2298 CIRCLED DIVISION SLASH"
+    },
+    {
+      "id": "e6589faa-5ec5-50c8-b0ed-c23d71c27175",
+      "word": "⊙",
+      "reading": "odot",
+      "hint": "U+2299 CIRCLED DOT OPERATOR"
+    },
+    {
+      "id": "3f92b8d5-0859-505a-b3e6-4f175de7c803",
+      "word": "⨁",
+      "reading": "bigoplus",
+      "hint": "U+2A01 N-ARY CIRCLED PLUS OPERATOR"
+    },
+    {
+      "id": "ce947305-231b-5bad-b5cb-c80a3c088be8",
+      "word": "⨂",
+      "reading": "bigotimes",
+      "hint": "U+2A02 N-ARY CIRCLED TIMES OPERATOR"
+    },
+    {
+      "id": "8058f3da-be09-5ff7-be69-706bc1bc1ffd",
+      "word": "⨀",
+      "reading": "bigodot",
+      "hint": "U+2A00 N-ARY CIRCLED DOT OPERATOR"
+    },
+    {
+      "id": "9ec06f41-9e88-58f1-976c-2846829370d0",
+      "word": "∑",
+      "reading": "sum",
+      "hint": "U+2211 N-ARY SUMMATION"
+    },
+    {
+      "id": "99035f7b-71ea-5155-ac7d-bc39f8e847dc",
+      "word": "∑",
+      "reading": "Sigmaop",
+      "hint": "U+2211 N-ARY SUMMATION"
+    },
+    {
+      "id": "7c01231b-4e3a-5a3e-acc7-ce59ed02812e",
+      "word": "∏",
+      "reading": "prod",
+      "hint": "U+220F N-ARY PRODUCT"
+    },
+    {
+      "id": "dfee5879-ad39-5327-830b-453102a9b5e1",
+      "word": "∏",
+      "reading": "Piop",
+      "hint": "U+220F N-ARY PRODUCT"
+    },
+    {
+      "id": "a681c3f6-3068-5891-9b00-fcf9ca6796cd",
+      "word": "∐",
+      "reading": "coprod",
+      "hint": "U+2210 N-ARY COPRODUCT"
+    },
+    {
+      "id": "65a95685-ce3d-5900-9f6c-9916d4f4f4ee",
+      "word": "√",
+      "reading": "sqrt",
+      "hint": "U+221A SQUARE ROOT"
+    },
+    {
+      "id": "a1d56a2b-7d41-5910-bfad-45fc5a6d5598",
+      "word": "√",
+      "reading": "root",
+      "hint": "U+221A SQUARE ROOT"
+    },
+    {
+      "id": "c86fc0bb-3e80-56b8-9be4-236a94f6686e",
+      "word": "∛",
+      "reading": "cuberoot",
+      "hint": "U+221B CUBE ROOT"
+    },
+    {
+      "id": "a1317713-1abc-5228-a360-b9d2020d8df9",
+      "word": "∛",
+      "reading": "cbrt",
+      "hint": "U+221B CUBE ROOT"
+    },
+    {
+      "id": "0183c4b9-f6cb-5497-a656-8feee040b563",
+      "word": "∜",
+      "reading": "fourthroot",
+      "hint": "U+221C FOURTH ROOT"
+    },
+    {
+      "id": "bb0ced0d-3217-5f04-bfa9-577b0d16dd64",
+      "word": "∫",
+      "reading": "integral",
+      "hint": "U+222B INTEGRAL"
+    },
+    {
+      "id": "dd3ee99b-e955-5597-b380-8c502c2e8355",
+      "word": "∫",
+      "reading": "int",
+      "hint": "U+222B INTEGRAL"
+    },
+    {
+      "id": "0c193708-609e-5cd8-bd32-f4a7310401b4",
+      "word": "∬",
+      "reading": "iint",
+      "hint": "U+222C DOUBLE INTEGRAL"
+    },
+    {
+      "id": "79fa12ab-90f1-55b6-86c4-fd0a980b6af3",
+      "word": "∬",
+      "reading": "doubleint",
+      "hint": "U+222C DOUBLE INTEGRAL"
+    },
+    {
+      "id": "6cb8b3a1-1e78-5a72-ab12-b6f8138e9d69",
+      "word": "∭",
+      "reading": "iiint",
+      "hint": "U+222D TRIPLE INTEGRAL"
+    },
+    {
+      "id": "b6236a62-cf02-51ee-a036-538a45fdd35a",
+      "word": "∭",
+      "reading": "tripleint",
+      "hint": "U+222D TRIPLE INTEGRAL"
+    },
+    {
+      "id": "b7369b7a-1d55-58f9-92cb-5cd1d06e74e4",
+      "word": "∮",
+      "reading": "oint",
+      "hint": "U+222E CONTOUR INTEGRAL"
+    },
+    {
+      "id": "c38172f9-456e-5061-9f07-12008b91f18d",
+      "word": "∮",
+      "reading": "contourint",
+      "hint": "U+222E CONTOUR INTEGRAL"
+    },
+    {
+      "id": "dc6a1089-15dd-5cb3-a1dd-d3e75623d791",
+      "word": "∯",
+      "reading": "oiint",
+      "hint": "U+222F SURFACE INTEGRAL"
+    },
+    {
+      "id": "a4baa54c-8d27-50c0-9c56-3e8ceb18c1f4",
+      "word": "∯",
+      "reading": "surfaceint",
+      "hint": "U+222F SURFACE INTEGRAL"
+    },
+    {
+      "id": "f021e417-d821-5a1c-9b34-c3c12d5b6271",
+      "word": "∰",
+      "reading": "oiiint",
+      "hint": "U+2230 VOLUME INTEGRAL"
+    },
+    {
+      "id": "458cba93-aaf7-5095-bbd2-4620ab4c7e1b",
+      "word": "∰",
+      "reading": "volumeint",
+      "hint": "U+2230 VOLUME INTEGRAL"
+    },
+    {
+      "id": "797141c6-7cdc-52c0-a111-e243ea263b3b",
+      "word": "∂",
+      "reading": "partial",
+      "hint": "U+2202 PARTIAL DIFFERENTIAL"
+    },
+    {
+      "id": "f75115f7-a3aa-5d16-88ca-ff9826bb7712",
+      "word": "∂",
+      "reading": "del",
+      "hint": "U+2202 PARTIAL DIFFERENTIAL"
+    },
+    {
+      "id": "b01996d3-3951-57c1-b892-7027d41ec4aa",
+      "word": "∇",
+      "reading": "nabla",
+      "hint": "U+2207 NABLA"
+    },
+    {
+      "id": "c46dcef7-f1ab-5749-a5b5-5ac8d3bb54d1",
+      "word": "∇",
+      "reading": "grad",
+      "hint": "U+2207 NABLA"
+    },
+    {
+      "id": "0250d96d-cb50-5666-8fb1-730ebf8e9d02",
+      "word": "∆",
+      "reading": "laplace",
+      "hint": "U+2206 INCREMENT"
+    },
+    {
+      "id": "ce645291-81c5-56f7-91f1-a80a724ef305",
+      "word": "∞",
+      "reading": "infty",
+      "hint": "U+221E INFINITY"
+    },
+    {
+      "id": "b5717836-25c8-531c-8a27-67d5c2125e08",
+      "word": "∞",
+      "reading": "infinity",
+      "hint": "U+221E INFINITY"
+    },
+    {
+      "id": "825f1014-731e-588e-9c51-b1e8d659e1ac",
+      "word": "∞",
+      "reading": "oo",
+      "hint": "U+221E INFINITY"
+    },
+    {
+      "id": "50f96e52-2092-553f-aec4-de2ac25d12dc",
+      "word": "⨂",
+      "reading": "producttensor",
+      "hint": "U+2A02 N-ARY CIRCLED TIMES OPERATOR"
+    },
+    {
+      "id": "1ba0d6e1-9402-5391-94f6-a591519c3d6f",
+      "word": "⊗",
+      "reading": "tensorprod",
+      "hint": "U+2297 CIRCLED TIMES"
+    },
+    {
+      "id": "5c2143dd-ad96-5940-9249-c385a1cee371",
+      "word": "↑",
+      "reading": "uparrow",
+      "hint": "U+2191 UPWARDS ARROW"
+    },
+    {
+      "id": "889c9463-b373-5095-b0a1-292dc28a3f9e",
+      "word": "↑",
+      "reading": "uarr",
+      "hint": "U+2191 UPWARDS ARROW"
+    },
+    {
+      "id": "fd5c7b8b-065f-502d-bcec-babeee4cf18d",
+      "word": "↑",
+      "reading": "arrowu",
+      "hint": "U+2191 UPWARDS ARROW"
+    },
+    {
+      "id": "c545eed4-1e0f-5367-aea4-7513e3a5681c",
+      "word": "↓",
+      "reading": "downarrow",
+      "hint": "U+2193 DOWNWARDS ARROW"
+    },
+    {
+      "id": "2d64a65f-c171-5522-8cc7-3e43f4e1c211",
+      "word": "↓",
+      "reading": "darr",
+      "hint": "U+2193 DOWNWARDS ARROW"
+    },
+    {
+      "id": "a206b87b-185c-52b8-9f38-e6bfe3b6acff",
+      "word": "↓",
+      "reading": "arrowd",
+      "hint": "U+2193 DOWNWARDS ARROW"
+    },
+    {
+      "id": "b554e025-a60d-5188-b5a8-69db5a7a3ec6",
+      "word": "↕",
+      "reading": "updownarrow",
+      "hint": "U+2195 UP DOWN ARROW"
+    },
+    {
+      "id": "1e3baebf-a6ea-5c26-a699-7b9b432fe20f",
+      "word": "↕",
+      "reading": "varrow",
+      "hint": "U+2195 UP DOWN ARROW"
+    },
+    {
+      "id": "b9c8d4a7-8332-5a33-8a53-bd6939e70157",
+      "word": "⇑",
+      "reading": "Uparrow",
+      "hint": "U+21D1 UPWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "ab40c71f-86cf-55e9-a8c7-f92213bf1aec",
+      "word": "⇑",
+      "reading": "uArr",
+      "hint": "U+21D1 UPWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "cad65a52-69fb-5f22-80e6-18287aa0a05c",
+      "word": "⇑",
+      "reading": "arrowudouble",
+      "hint": "U+21D1 UPWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "a1fdc091-1e5f-5b5f-93c0-ab1a428b3854",
+      "word": "⇓",
+      "reading": "Downarrow",
+      "hint": "U+21D3 DOWNWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "d1c0f321-7b03-5813-bed0-a3ec4156fab1",
+      "word": "⇓",
+      "reading": "dArr",
+      "hint": "U+21D3 DOWNWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "bc6c7c90-b111-596f-85a1-dfa7849ec249",
+      "word": "⇓",
+      "reading": "arrowddouble",
+      "hint": "U+21D3 DOWNWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "325fc2a4-0450-5ff3-9af9-caafecee0bdb",
+      "word": "⇕",
+      "reading": "Updownarrow",
+      "hint": "U+21D5 UP DOWN DOUBLE ARROW"
+    },
+    {
+      "id": "b2c8624a-9df8-5d02-8f81-1859a79329f4",
+      "word": "⇕",
+      "reading": "vArr",
+      "hint": "U+21D5 UP DOWN DOUBLE ARROW"
+    },
+    {
+      "id": "7dfb5352-28f4-59e9-b320-04f97f99d961",
+      "word": "⟶",
+      "reading": "longrightarrow",
+      "hint": "U+27F6 LONG RIGHTWARDS ARROW"
+    },
+    {
+      "id": "3f6b5fa3-9672-59ec-bd81-e7603a0db8c6",
+      "word": "⟶",
+      "reading": "longto",
+      "hint": "U+27F6 LONG RIGHTWARDS ARROW"
+    },
+    {
+      "id": "ac6acb13-ff6b-597b-9ac0-2a28c8692145",
+      "word": "⟶",
+      "reading": "arrowrlong",
+      "hint": "U+27F6 LONG RIGHTWARDS ARROW"
+    },
+    {
+      "id": "3a9ae817-8a8c-544f-b98f-71832d5d4083",
+      "word": "⟵",
+      "reading": "longleftarrow",
+      "hint": "U+27F5 LONG LEFTWARDS ARROW"
+    },
+    {
+      "id": "fd8e43e9-e09e-5235-9079-405fa6dbfec3",
+      "word": "⟵",
+      "reading": "arrowllong",
+      "hint": "U+27F5 LONG LEFTWARDS ARROW"
+    },
+    {
+      "id": "6e1fc9ab-b0e0-547f-a505-64e586d22a39",
+      "word": "⟷",
+      "reading": "longleftrightarrow",
+      "hint": "U+27F7 LONG LEFT RIGHT ARROW"
+    },
+    {
+      "id": "1354280a-8b0a-5b8b-bcd4-107f92275d0e",
+      "word": "⟷",
+      "reading": "arrowlrlong",
+      "hint": "U+27F7 LONG LEFT RIGHT ARROW"
+    },
+    {
+      "id": "4dc9cdfa-69c6-5d44-8687-aec6155b0d7c",
+      "word": "⟹",
+      "reading": "Longrightarrow",
+      "hint": "U+27F9 LONG RIGHTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "a30576d4-659e-57f2-bc51-3098e5c0d99b",
+      "word": "⟹",
+      "reading": "arrowrdoublelong",
+      "hint": "U+27F9 LONG RIGHTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "df0b5289-39c1-5d15-a3a6-7ca826ad56a0",
+      "word": "⟸",
+      "reading": "Longleftarrow",
+      "hint": "U+27F8 LONG LEFTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "47f9a555-4818-52a5-bbe4-ffcc962659e2",
+      "word": "⟸",
+      "reading": "arrowldoublelong",
+      "hint": "U+27F8 LONG LEFTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "dab2a462-96c6-5f6f-9c5c-fe214e3bc3ae",
+      "word": "⟺",
+      "reading": "Longleftrightarrow",
+      "hint": "U+27FA LONG LEFT RIGHT DOUBLE ARROW"
+    },
+    {
+      "id": "5ad47c83-f52f-5ef1-bc33-3aad60a0c0d5",
+      "word": "⟺",
+      "reading": "arrowlrdoublelong",
+      "hint": "U+27FA LONG LEFT RIGHT DOUBLE ARROW"
+    },
+    {
+      "id": "724613fc-d43c-5a53-94fa-53e0082524b9",
+      "word": "↪",
+      "reading": "hookrightarrow",
+      "hint": "U+21AA RIGHTWARDS ARROW WITH HOOK"
+    },
+    {
+      "id": "9a454aa7-8c62-5592-b947-687cfad8913c",
+      "word": "↩",
+      "reading": "hookleftarrow",
+      "hint": "U+21A9 LEFTWARDS ARROW WITH HOOK"
+    },
+    {
+      "id": "60cd022a-4832-5e51-b243-ff871b13494c",
+      "word": "↣",
+      "reading": "rightarrowtail",
+      "hint": "U+21A3 RIGHTWARDS ARROW WITH TAIL"
+    },
+    {
+      "id": "0be25dad-3661-5002-a9ca-4825b4a329ec",
+      "word": "↢",
+      "reading": "leftarrowtail",
+      "hint": "U+21A2 LEFTWARDS ARROW WITH TAIL"
+    },
+    {
+      "id": "eeb9fc18-0c2a-5caf-8220-fbf809cffcc4",
+      "word": "↠",
+      "reading": "twoheadrightarrow",
+      "hint": "U+21A0 RIGHTWARDS TWO HEADED ARROW"
+    },
+    {
+      "id": "cb513a77-7acd-5ad9-9267-8b53a724b931",
+      "word": "↞",
+      "reading": "twoheadleftarrow",
+      "hint": "U+219E LEFTWARDS TWO HEADED ARROW"
+    },
+    {
+      "id": "df6498c1-5d28-59ae-9312-9e58a9ba144c",
+      "word": "⇀",
+      "reading": "rightharpoonup",
+      "hint": "U+21C0 RIGHTWARDS HARPOON WITH BARB UPWARDS"
+    },
+    {
+      "id": "4e9a9ec0-7dbd-5d06-ae40-2916187015c9",
+      "word": "⇁",
+      "reading": "rightharpoondown",
+      "hint": "U+21C1 RIGHTWARDS HARPOON WITH BARB DOWNWARDS"
+    },
+    {
+      "id": "e1c87817-94c3-508d-b784-d40f3e8d979f",
+      "word": "↼",
+      "reading": "leftharpoonup",
+      "hint": "U+21BC LEFTWARDS HARPOON WITH BARB UPWARDS"
+    },
+    {
+      "id": "e0df7dc0-62dc-56e3-9b2c-1e8eadecf7bb",
+      "word": "↽",
+      "reading": "leftharpoondown",
+      "hint": "U+21BD LEFTWARDS HARPOON WITH BARB DOWNWARDS"
+    },
+    {
+      "id": "fe72b154-43d2-5aca-95bb-d057088d31d6",
+      "word": "⇌",
+      "reading": "rightleftharpoons",
+      "hint": "U+21CC RIGHTWARDS HARPOON OVER LEFTWARDS HARPOON"
+    },
+    {
+      "id": "f2b0696e-7562-5fb2-a724-ee10d6ebcf64",
+      "word": "⇋",
+      "reading": "leftrightharpoons",
+      "hint": "U+21CB LEFTWARDS HARPOON OVER RIGHTWARDS HARPOON"
+    },
+    {
+      "id": "35fbf6eb-2f49-567c-b4fd-bb84bb68ee37",
+      "word": "↗",
+      "reading": "nearrow",
+      "hint": "U+2197 NORTH EAST ARROW"
+    },
+    {
+      "id": "07704523-c7cc-575b-ae71-b56f7207934c",
+      "word": "↘",
+      "reading": "searrow",
+      "hint": "U+2198 SOUTH EAST ARROW"
+    },
+    {
+      "id": "2eec2b0e-b786-5dd2-9817-c88d7ba28d30",
+      "word": "↙",
+      "reading": "swarrow",
+      "hint": "U+2199 SOUTH WEST ARROW"
+    },
+    {
+      "id": "48813433-104c-54d1-8410-e0c848287407",
+      "word": "↖",
+      "reading": "nwarrow",
+      "hint": "U+2196 NORTH WEST ARROW"
+    },
+    {
+      "id": "13772233-dd88-5fa7-826c-cd2594cef849",
+      "word": "⇝",
+      "reading": "leadsto",
+      "hint": "U+21DD RIGHTWARDS SQUIGGLE ARROW"
+    },
+    {
+      "id": "551bc5c5-8915-5bb6-9c73-c17dffd2aec9",
+      "word": "⇝",
+      "reading": "rightsquigarrow",
+      "hint": "U+21DD RIGHTWARDS SQUIGGLE ARROW"
+    },
+    {
+      "id": "21912546-c376-5786-a218-5b2d446e396c",
+      "word": "⇜",
+      "reading": "leftsquigarrow",
+      "hint": "U+21DC LEFTWARDS SQUIGGLE ARROW"
+    },
+    {
+      "id": "8fb0c4a6-5ea1-5cd0-af78-3a3d85ffff6f",
+      "word": "↛",
+      "reading": "nrightarrow",
+      "hint": "U+219B RIGHTWARDS ARROW WITH STROKE"
+    },
+    {
+      "id": "ce250403-4ea1-5064-8d6e-ab8c4f744065",
+      "word": "↚",
+      "reading": "nleftarrow",
+      "hint": "U+219A LEFTWARDS ARROW WITH STROKE"
+    },
+    {
+      "id": "9ac99a27-e9fd-51cf-ba2e-116525ae0df1",
+      "word": "↮",
+      "reading": "nleftrightarrow",
+      "hint": "U+21AE LEFT RIGHT ARROW WITH STROKE"
+    },
+    {
+      "id": "c47c008d-c2ca-5b34-8032-bd8b84047052",
+      "word": "⟨",
+      "reading": "langle",
+      "hint": "U+27E8 MATHEMATICAL LEFT ANGLE BRACKET"
+    },
+    {
+      "id": "d4d8d0dc-4146-5e97-9dd6-cea21443787e",
+      "word": "⟩",
+      "reading": "rangle",
+      "hint": "U+27E9 MATHEMATICAL RIGHT ANGLE BRACKET"
+    },
+    {
+      "id": "1e94a1b1-9ec1-50ca-9573-3b709790e5ce",
+      "word": "⌈",
+      "reading": "lceil",
+      "hint": "U+2308 LEFT CEILING"
+    },
+    {
+      "id": "d856d831-7bc1-5b1c-84ef-c87d72843462",
+      "word": "⌉",
+      "reading": "rceil",
+      "hint": "U+2309 RIGHT CEILING"
+    },
+    {
+      "id": "d70bb06b-c8d7-58f7-8830-729a4b39f44d",
+      "word": "⌊",
+      "reading": "lfloor",
+      "hint": "U+230A LEFT FLOOR"
+    },
+    {
+      "id": "1f65df16-b87d-5ace-ad35-ac9f37db708b",
+      "word": "⌋",
+      "reading": "rfloor",
+      "hint": "U+230B RIGHT FLOOR"
+    },
+    {
+      "id": "c8d6cdb7-3255-5160-a823-a7a032dc094e",
+      "word": "⌜",
+      "reading": "ulcorner",
+      "hint": "U+231C TOP LEFT CORNER"
+    },
+    {
+      "id": "ab2a6036-0560-5ee7-8fa0-7852b7c45010",
+      "word": "⌝",
+      "reading": "urcorner",
+      "hint": "U+231D TOP RIGHT CORNER"
+    },
+    {
+      "id": "4596c561-6cda-54c7-a6d1-d578e0710756",
+      "word": "⌞",
+      "reading": "llcorner",
+      "hint": "U+231E BOTTOM LEFT CORNER"
+    },
+    {
+      "id": "c37d39b7-684b-5980-b5ca-85a6d29cb65b",
+      "word": "⌟",
+      "reading": "lrcorner",
+      "hint": "U+231F BOTTOM RIGHT CORNER"
+    },
+    {
+      "id": "37ed2e4c-6c37-55ac-b346-af34a1ac6d47",
+      "word": "[",
+      "reading": "lbrack",
+      "hint": "U+005B LEFT SQUARE BRACKET"
+    },
+    {
+      "id": "4ef6caff-878d-5697-b423-5f44ef722304",
+      "word": "]",
+      "reading": "rbrack",
+      "hint": "U+005D RIGHT SQUARE BRACKET"
+    },
+    {
+      "id": "c9406fd2-4823-5ae0-9be5-97e62968b5da",
+      "word": "{",
+      "reading": "lbrace",
+      "hint": "U+007B LEFT CURLY BRACKET"
+    },
+    {
+      "id": "ae23d5d8-7ef1-5b62-b728-7f9d6e79ca97",
+      "word": "}",
+      "reading": "rbrace",
+      "hint": "U+007D RIGHT CURLY BRACKET"
+    },
+    {
+      "id": "a57872cf-3acc-5d69-bd36-6e893ed28b12",
+      "word": "(",
+      "reading": "lparen",
+      "hint": "U+0028 LEFT PARENTHESIS"
+    },
+    {
+      "id": "4949d2c6-51c0-5067-a4a2-4fdfc6c0c4f2",
+      "word": ")",
+      "reading": "rparen",
+      "hint": "U+0029 RIGHT PARENTHESIS"
+    },
+    {
+      "id": "b5f33b0f-f155-526c-bdab-bb5f869bfed7",
+      "word": "|",
+      "reading": "vert",
+      "hint": "U+007C VERTICAL LINE"
+    },
+    {
+      "id": "5e9c6887-f881-5ed8-b4bc-2f9282a08e2f",
+      "word": "|",
+      "reading": "bar",
+      "hint": "U+007C VERTICAL LINE"
+    },
+    {
+      "id": "4160fa70-0a3e-5b1a-9743-ba0379e238bb",
+      "word": "‖",
+      "reading": "Vert",
+      "hint": "U+2016 DOUBLE VERTICAL LINE"
+    },
+    {
+      "id": "bdcf1d59-810d-5ecf-a480-c3354c46d1a7",
+      "word": "‖",
+      "reading": "norm",
+      "hint": "U+2016 DOUBLE VERTICAL LINE"
+    },
+    {
+      "id": "8ea267a1-bb75-54e0-a39b-9711b63cacc4",
+      "word": "|",
+      "reading": "lvert",
+      "hint": "U+007C VERTICAL LINE"
+    },
+    {
+      "id": "87bd5d96-f773-5b25-9faa-f02c468fbb19",
+      "word": "|",
+      "reading": "rvert",
+      "hint": "U+007C VERTICAL LINE"
+    },
+    {
+      "id": "bf276b2c-7b47-5e5f-981f-15069dffb7c7",
+      "word": "‖",
+      "reading": "lVert",
+      "hint": "U+2016 DOUBLE VERTICAL LINE"
+    },
+    {
+      "id": "018a787e-60e1-55f6-81f8-4bb9fb351337",
+      "word": "‖",
+      "reading": "rVert",
+      "hint": "U+2016 DOUBLE VERTICAL LINE"
+    },
+    {
+      "id": "66e831f6-93fa-527b-b7ae-97060ebd761e",
+      "word": "…",
+      "reading": "ldots",
+      "hint": "U+2026 HORIZONTAL ELLIPSIS"
+    },
+    {
+      "id": "686a79fb-b447-59f5-914b-5f89a9d0a79b",
+      "word": "…",
+      "reading": "dots",
+      "hint": "U+2026 HORIZONTAL ELLIPSIS"
+    },
+    {
+      "id": "9f990b05-63a9-5667-a8f3-70192f177880",
+      "word": "…",
+      "reading": "ellipsis",
+      "hint": "U+2026 HORIZONTAL ELLIPSIS"
+    },
+    {
+      "id": "a76e7087-54d6-58b3-8ea3-7b3528003e0f",
+      "word": "⋯",
+      "reading": "cdots",
+      "hint": "U+22EF MIDLINE HORIZONTAL ELLIPSIS"
+    },
+    {
+      "id": "5529a407-0389-533e-9816-b0b554f88d87",
+      "word": "⋮",
+      "reading": "vdots",
+      "hint": "U+22EE VERTICAL ELLIPSIS"
+    },
+    {
+      "id": "73faaf9a-90b1-5f3d-97c3-1bca8352dc95",
+      "word": "⋱",
+      "reading": "ddots",
+      "hint": "U+22F1 DOWN RIGHT DIAGONAL ELLIPSIS"
+    },
+    {
+      "id": "2e35f3de-daa0-5c2c-95dc-8c4901c41158",
+      "word": "⋰",
+      "reading": "adots",
+      "hint": "U+22F0 UP RIGHT DIAGONAL ELLIPSIS"
+    },
+    {
+      "id": "14d945c6-81a3-5f1d-a821-2ae3e84068d7",
+      "word": "′",
+      "reading": "prime",
+      "hint": "U+2032 PRIME"
+    },
+    {
+      "id": "3ab69b34-a9a5-5332-9de4-7baadfc2ebeb",
+      "word": "″",
+      "reading": "dprime",
+      "hint": "U+2033 DOUBLE PRIME"
+    },
+    {
+      "id": "7a3781ee-fd9c-5561-8116-c2ffec595ea5",
+      "word": "″",
+      "reading": "doubleprime",
+      "hint": "U+2033 DOUBLE PRIME"
+    },
+    {
+      "id": "391c0f50-632a-53a5-8e29-199164f5a287",
+      "word": "‴",
+      "reading": "tprime",
+      "hint": "U+2034 TRIPLE PRIME"
+    },
+    {
+      "id": "98d15d4f-924d-5c8c-9e7b-4e63af4f0770",
+      "word": "‴",
+      "reading": "tripleprime",
+      "hint": "U+2034 TRIPLE PRIME"
+    },
+    {
+      "id": "ae985275-2721-5db3-8107-d1dc81b09b0d",
+      "word": "⁗",
+      "reading": "qprime",
+      "hint": "U+2057 QUADRUPLE PRIME"
+    },
+    {
+      "id": "6343c85b-55ac-5d37-a8b9-b8a960cb3c0f",
+      "word": "°",
+      "reading": "degree",
+      "hint": "U+00B0 DEGREE SIGN"
+    },
+    {
+      "id": "aa441681-82a7-5a93-838e-2ad6b0c9422a",
+      "word": "°",
+      "reading": "deg",
+      "hint": "U+00B0 DEGREE SIGN"
+    },
+    {
+      "id": "d53d8a36-a2cb-5fa6-89e2-5e343b999991",
+      "word": "∠",
+      "reading": "angle",
+      "hint": "U+2220 ANGLE"
+    },
+    {
+      "id": "8dcd0c83-ce20-5cef-b688-517c71aa9db6",
+      "word": "∡",
+      "reading": "measuredangle",
+      "hint": "U+2221 MEASURED ANGLE"
+    },
+    {
+      "id": "7e7c94e1-530f-58cf-a38d-1e39be7a07e4",
+      "word": "∢",
+      "reading": "sphericalangle",
+      "hint": "U+2222 SPHERICAL ANGLE"
+    },
+    {
+      "id": "e6d1ed3a-f454-53e8-a9eb-cbb98c3247f1",
+      "word": "∟",
+      "reading": "rightangle",
+      "hint": "U+221F RIGHT ANGLE"
+    },
+    {
+      "id": "da2fdcec-fd67-5529-b743-9aaf8e1d1ada",
+      "word": "△",
+      "reading": "triangle",
+      "hint": "U+25B3 WHITE UP-POINTING TRIANGLE"
+    },
+    {
+      "id": "6439e280-1d2a-5524-b619-7d69061df69e",
+      "word": "△",
+      "reading": "triangleup",
+      "hint": "U+25B3 WHITE UP-POINTING TRIANGLE"
+    },
+    {
+      "id": "5a5602de-22b7-59d7-89d3-9360a9e7ba5c",
+      "word": "▽",
+      "reading": "triangledown",
+      "hint": "U+25BD WHITE DOWN-POINTING TRIANGLE"
+    },
+    {
+      "id": "bd410129-cf6b-5fd8-a32c-03293a7a1ae0",
+      "word": "▲",
+      "reading": "blacktriangle",
+      "hint": "U+25B2 BLACK UP-POINTING TRIANGLE"
+    },
+    {
+      "id": "3f64247e-a4be-5a84-8bc6-d3120e83bfeb",
+      "word": "▼",
+      "reading": "blacktriangledown",
+      "hint": "U+25BC BLACK DOWN-POINTING TRIANGLE"
+    },
+    {
+      "id": "66a8c4c4-ae8f-52e4-b143-6cce7f615d88",
+      "word": "⋄",
+      "reading": "diamond",
+      "hint": "U+22C4 DIAMOND OPERATOR"
+    },
+    {
+      "id": "caba1bee-4dd4-5c5f-96f7-8a389b4005e2",
+      "word": "◊",
+      "reading": "lozenge",
+      "hint": "U+25CA LOZENGE"
+    },
+    {
+      "id": "988f4763-65bf-5a9d-bdd4-9a6cf07afd57",
+      "word": "□",
+      "reading": "square",
+      "hint": "U+25A1 WHITE SQUARE"
+    },
+    {
+      "id": "3da42567-40a6-5816-9687-017bf912c459",
+      "word": "■",
+      "reading": "blacksquare",
+      "hint": "U+25A0 BLACK SQUARE"
+    },
+    {
+      "id": "ab7736bc-afb2-5792-822a-99349bb6d697",
+      "word": "⌢",
+      "reading": "frown",
+      "hint": "U+2322 FROWN"
+    },
+    {
+      "id": "5fdb1f65-03dd-5495-a825-4fa5ff597208",
+      "word": "⌣",
+      "reading": "smile",
+      "hint": "U+2323 SMILE"
+    },
+    {
+      "id": "ee36a33e-929f-590a-8ebc-e41c443fabef",
+      "word": "✓",
+      "reading": "checkmark",
+      "hint": "U+2713 CHECK MARK"
+    },
+    {
+      "id": "4294e820-f0bf-5496-95da-ee7285104cfe",
+      "word": "✓",
+      "reading": "check",
+      "hint": "U+2713 CHECK MARK"
+    },
+    {
+      "id": "e1f9dcc4-239e-5e72-aaa1-bfa6c209b33e",
+      "word": "✗",
+      "reading": "crossmark",
+      "hint": "U+2717 BALLOT X"
+    },
+    {
+      "id": "d6d1111f-1937-5ada-ac29-0ee31ee71cc1",
+      "word": "✠",
+      "reading": "maltese",
+      "hint": "U+2720 MALTESE CROSS"
+    },
+    {
+      "id": "8276b869-69fa-5685-8234-591b6f055110",
+      "word": "†",
+      "reading": "dagger",
+      "hint": "U+2020 DAGGER"
+    },
+    {
+      "id": "8d8cad6c-04c6-5408-8792-28ea26f7c1ca",
+      "word": "‡",
+      "reading": "ddagger",
+      "hint": "U+2021 DOUBLE DAGGER"
+    },
+    {
+      "id": "c2b1445b-c7a8-53c3-bb3a-3545401dc8f3",
+      "word": "ℏ",
+      "reading": "hbar",
+      "hint": "U+210F PLANCK CONSTANT OVER TWO PI"
+    },
+    {
+      "id": "58bcd665-eabe-58e8-8f2f-f25b9da0ba80",
+      "word": "ℏ",
+      "reading": "hslash",
+      "hint": "U+210F PLANCK CONSTANT OVER TWO PI"
+    },
+    {
+      "id": "55691388-f8d5-51b1-8c75-40bd8e2e8fb0",
+      "word": "ℓ",
+      "reading": "ell",
+      "hint": "U+2113 SCRIPT SMALL L"
+    },
+    {
+      "id": "b683c12c-bb43-5da6-86c0-049bbff75053",
+      "word": "Å",
+      "reading": "angstrom",
+      "hint": "U+00C5 LATIN CAPITAL LETTER A WITH RING ABOVE"
+    },
+    {
+      "id": "6cc671d0-2e6d-58bf-89e8-553e95d702dd",
+      "word": "ℵ",
+      "reading": "aleph",
+      "hint": "U+2135 ALEF SYMBOL"
+    },
+    {
+      "id": "0d971870-e76b-5213-8361-4eb6fd0febe4",
+      "word": "ℶ",
+      "reading": "beth",
+      "hint": "U+2136 BET SYMBOL"
+    },
+    {
+      "id": "0f568590-a42a-57e9-83f3-29b5cd9e63f6",
+      "word": "ℷ",
+      "reading": "gimel",
+      "hint": "U+2137 GIMEL SYMBOL"
+    },
+    {
+      "id": "5f484e93-b438-5348-8e08-74e7ef3eeaba",
+      "word": "ℸ",
+      "reading": "daleth",
+      "hint": "U+2138 DALET SYMBOL"
+    },
+    {
+      "id": "5cc27ada-d5b7-59df-aeb3-799201341db7",
+      "word": "ℜ",
+      "reading": "Re",
+      "hint": "U+211C BLACK-LETTER CAPITAL R"
+    },
+    {
+      "id": "021d7113-7f84-57d0-a522-b173669034f8",
+      "word": "ℜ",
+      "reading": "realpart",
+      "hint": "U+211C BLACK-LETTER CAPITAL R"
+    },
+    {
+      "id": "fab0d42c-d630-5258-a1e0-7df3dd9c2a72",
+      "word": "ℑ",
+      "reading": "Im",
+      "hint": "U+2111 BLACK-LETTER CAPITAL I"
+    },
+    {
+      "id": "d7caf5ac-facf-5d43-9a5c-90657c6916c4",
+      "word": "ℑ",
+      "reading": "imagpart",
+      "hint": "U+2111 BLACK-LETTER CAPITAL I"
+    },
+    {
+      "id": "c9b70b8f-8f0f-59d3-be80-a749b755e68c",
+      "word": "ı",
+      "reading": "imath",
+      "hint": "U+0131 LATIN SMALL LETTER DOTLESS I"
+    },
+    {
+      "id": "3674b0b6-cdc1-55b1-be32-c8be5710c8fd",
+      "word": "ȷ",
+      "reading": "jmath",
+      "hint": "U+0237 LATIN SMALL LETTER DOTLESS J"
+    },
+    {
+      "id": "d2690180-c0ad-5cbd-bb76-098fab141e65",
+      "word": "ⅆ",
+      "reading": "dif",
+      "hint": "U+2146 DOUBLE-STRUCK ITALIC SMALL D"
+    },
+    {
+      "id": "9387090f-0223-59b0-ba9a-78f40c2c8dff",
+      "word": "ⅆ",
+      "reading": "differentiald",
+      "hint": "U+2146 DOUBLE-STRUCK ITALIC SMALL D"
+    },
+    {
+      "id": "30ffca00-e07d-5086-9975-1780e85f5f9c",
+      "word": "ⅅ",
+      "reading": "Dif",
+      "hint": "U+2145 DOUBLE-STRUCK ITALIC CAPITAL D"
+    },
+    {
+      "id": "f36f8bc5-e1bc-5651-84de-95abd8fbf7b2",
+      "word": "ⅅ",
+      "reading": "differentialD",
+      "hint": "U+2145 DOUBLE-STRUCK ITALIC CAPITAL D"
+    },
+    {
+      "id": "3d489929-0b4d-5297-8d5f-b57ae0fcde13",
+      "word": "ℯ",
+      "reading": "euler",
+      "hint": "U+212F SCRIPT SMALL E"
+    },
+    {
+      "id": "545ac884-9561-512e-949e-abeab6106551",
+      "word": "ⅈ",
+      "reading": "imaginaryi",
+      "hint": "U+2148 DOUBLE-STRUCK ITALIC SMALL I"
+    },
+    {
+      "id": "07cf81aa-18a5-5807-a8d2-a4fcbc903907",
+      "word": "ⅈ",
+      "reading": "imagunit",
+      "hint": "U+2148 DOUBLE-STRUCK ITALIC SMALL I"
+    },
+    {
+      "id": "d7969904-c2d9-5fc2-88c9-eb2ade415bfd",
+      "word": "ⅉ",
+      "reading": "imaginaryj",
+      "hint": "U+2149 DOUBLE-STRUCK ITALIC SMALL J"
+    },
+    {
+      "id": "038e34cb-cff1-5d9c-ab4d-6a71d94660bb",
+      "word": "µ",
+      "reading": "micro",
+      "hint": "U+00B5 MICRO SIGN"
+    },
+    {
+      "id": "36922a52-56c9-55ba-b059-b1a21924dc73",
+      "word": "Ω",
+      "reading": "ohm",
+      "hint": "U+03A9 GREEK CAPITAL LETTER OMEGA"
+    },
+    {
+      "id": "1da2e28f-762b-5ece-adda-41314dfc2a3a",
+      "word": "℧",
+      "reading": "mho",
+      "hint": "U+2127 INVERTED OHM SIGN"
+    },
+    {
+      "id": "3941e649-3bd2-51a4-876e-c199719bfac6",
+      "word": "α",
+      "reading": "alpha",
+      "hint": "U+03B1 GREEK SMALL LETTER ALPHA"
+    },
+    {
+      "id": "70c4b7b1-45be-5235-a52d-d7a3fb14cbb3",
+      "word": "β",
+      "reading": "beta",
+      "hint": "U+03B2 GREEK SMALL LETTER BETA"
+    },
+    {
+      "id": "86fe2fc0-47a5-554f-ab8e-3f41ccd1b3b8",
+      "word": "γ",
+      "reading": "gamma",
+      "hint": "U+03B3 GREEK SMALL LETTER GAMMA"
+    },
+    {
+      "id": "ebcc7348-5631-51b5-ae56-2bc70675c1dd",
+      "word": "δ",
+      "reading": "delta",
+      "hint": "U+03B4 GREEK SMALL LETTER DELTA"
+    },
+    {
+      "id": "00d480cf-cdfa-5428-84e7-d5d4b5271621",
+      "word": "ε",
+      "reading": "epsilon",
+      "hint": "U+03B5 GREEK SMALL LETTER EPSILON"
+    },
+    {
+      "id": "9606cf5a-3500-5a32-8668-85644daecee1",
+      "word": "ϵ",
+      "reading": "varepsilon",
+      "hint": "U+03F5 GREEK LUNATE EPSILON SYMBOL"
+    },
+    {
+      "id": "81af0f4d-1dc7-5567-8fb2-618183cc488c",
+      "word": "ϵ",
+      "reading": "vepsilon",
+      "hint": "U+03F5 GREEK LUNATE EPSILON SYMBOL"
+    },
+    {
+      "id": "09cf1017-a4c8-5f78-8820-50bd9aff8502",
+      "word": "ζ",
+      "reading": "zeta",
+      "hint": "U+03B6 GREEK SMALL LETTER ZETA"
+    },
+    {
+      "id": "1aa6b742-fcc2-59b8-b755-6b459cba91d1",
+      "word": "η",
+      "reading": "eta",
+      "hint": "U+03B7 GREEK SMALL LETTER ETA"
+    },
+    {
+      "id": "2880fe06-dffd-5559-9127-25ed2daac919",
+      "word": "θ",
+      "reading": "theta",
+      "hint": "U+03B8 GREEK SMALL LETTER THETA"
+    },
+    {
+      "id": "b3409a80-336f-502c-9d24-3cda5cf22f67",
+      "word": "ϑ",
+      "reading": "vartheta",
+      "hint": "U+03D1 GREEK THETA SYMBOL"
+    },
+    {
+      "id": "d993b79c-f2fd-56a2-a36a-fad61965a656",
+      "word": "ϑ",
+      "reading": "vtheta",
+      "hint": "U+03D1 GREEK THETA SYMBOL"
+    },
+    {
+      "id": "184fce03-31a2-54ec-96a1-bea1270b17d5",
+      "word": "ι",
+      "reading": "iota",
+      "hint": "U+03B9 GREEK SMALL LETTER IOTA"
+    },
+    {
+      "id": "ac5a6bcc-6f7a-5eaa-b546-9f4588892e21",
+      "word": "κ",
+      "reading": "kappa",
+      "hint": "U+03BA GREEK SMALL LETTER KAPPA"
+    },
+    {
+      "id": "2e9f7f7f-a21f-5dc2-82a8-92661932f142",
+      "word": "ϰ",
+      "reading": "varkappa",
+      "hint": "U+03F0 GREEK KAPPA SYMBOL"
+    },
+    {
+      "id": "1bf0d73f-d4da-5902-afa2-b2f7a4ea477d",
+      "word": "ϰ",
+      "reading": "vkappa",
+      "hint": "U+03F0 GREEK KAPPA SYMBOL"
+    },
+    {
+      "id": "41994956-d0d9-5524-9e08-c04e71973b4b",
+      "word": "λ",
+      "reading": "lambda",
+      "hint": "U+03BB GREEK SMALL LETTER LAMDA"
+    },
+    {
+      "id": "2747fcfe-c858-5d62-9480-7553ffc408cd",
+      "word": "λ",
+      "reading": "lam",
+      "hint": "U+03BB GREEK SMALL LETTER LAMDA"
+    },
+    {
+      "id": "d9cf3b7e-7096-52a7-82de-fc21ce7d329a",
+      "word": "μ",
+      "reading": "mu",
+      "hint": "U+03BC GREEK SMALL LETTER MU"
+    },
+    {
+      "id": "185474a4-c941-575c-91a4-0eb564324ba0",
+      "word": "ν",
+      "reading": "nu",
+      "hint": "U+03BD GREEK SMALL LETTER NU"
+    },
+    {
+      "id": "b207f4d5-8fa3-5300-b31f-c999aa6383b8",
+      "word": "ξ",
+      "reading": "xi",
+      "hint": "U+03BE GREEK SMALL LETTER XI"
+    },
+    {
+      "id": "3c2c3e1a-41f6-5d3f-9b52-5bebf94f3373",
+      "word": "ο",
+      "reading": "omicron",
+      "hint": "U+03BF GREEK SMALL LETTER OMICRON"
+    },
+    {
+      "id": "79dd810f-3dde-59e8-9e27-16c7c1f3b2c5",
+      "word": "π",
+      "reading": "pi",
+      "hint": "U+03C0 GREEK SMALL LETTER PI"
+    },
+    {
+      "id": "13c91188-07e0-578f-b087-422a9ed43adb",
+      "word": "ϖ",
+      "reading": "varpi",
+      "hint": "U+03D6 GREEK PI SYMBOL"
+    },
+    {
+      "id": "1d585a91-b0a9-5cde-b424-c9fa834718c8",
+      "word": "ϖ",
+      "reading": "vpi",
+      "hint": "U+03D6 GREEK PI SYMBOL"
+    },
+    {
+      "id": "c4a71a62-ee14-54e0-82ef-6ebebe295c2c",
+      "word": "ρ",
+      "reading": "rho",
+      "hint": "U+03C1 GREEK SMALL LETTER RHO"
+    },
+    {
+      "id": "c753f840-825c-584e-9393-27ec0fdb49b9",
+      "word": "ϱ",
+      "reading": "varrho",
+      "hint": "U+03F1 GREEK RHO SYMBOL"
+    },
+    {
+      "id": "df59cf59-86db-51d8-9344-fb4829d4c85b",
+      "word": "ϱ",
+      "reading": "vrho",
+      "hint": "U+03F1 GREEK RHO SYMBOL"
+    },
+    {
+      "id": "44363dfe-de7a-5048-a8f7-f4e3934d3347",
+      "word": "σ",
+      "reading": "sigma",
+      "hint": "U+03C3 GREEK SMALL LETTER SIGMA"
+    },
+    {
+      "id": "c1c4a528-1e95-51d6-846f-375f7bdd93c1",
+      "word": "ς",
+      "reading": "varsigma",
+      "hint": "U+03C2 GREEK SMALL LETTER FINAL SIGMA"
+    },
+    {
+      "id": "7314d636-d77c-5c11-9aa9-f3f1b16d1499",
+      "word": "ς",
+      "reading": "vsigma",
+      "hint": "U+03C2 GREEK SMALL LETTER FINAL SIGMA"
+    },
+    {
+      "id": "ed2e7d1b-0886-51f1-ae25-4baf63c89360",
+      "word": "τ",
+      "reading": "tau",
+      "hint": "U+03C4 GREEK SMALL LETTER TAU"
+    },
+    {
+      "id": "4996f4f4-fe04-57f1-ad21-43e5a9290259",
+      "word": "υ",
+      "reading": "upsilon",
+      "hint": "U+03C5 GREEK SMALL LETTER UPSILON"
+    },
+    {
+      "id": "81e7857f-838e-50aa-a776-aa50fcf63aa4",
+      "word": "φ",
+      "reading": "phi",
+      "hint": "U+03C6 GREEK SMALL LETTER PHI"
+    },
+    {
+      "id": "c887c4ba-0b05-5baa-8d79-725f3825be04",
+      "word": "ϕ",
+      "reading": "varphi",
+      "hint": "U+03D5 GREEK PHI SYMBOL"
+    },
+    {
+      "id": "15376432-95b7-5526-a885-7d771d9db9bb",
+      "word": "ϕ",
+      "reading": "vphi",
+      "hint": "U+03D5 GREEK PHI SYMBOL"
+    },
+    {
+      "id": "4b8e601a-5df5-507f-baad-8c876d31eb1c",
+      "word": "χ",
+      "reading": "chi",
+      "hint": "U+03C7 GREEK SMALL LETTER CHI"
+    },
+    {
+      "id": "311e1723-448b-5f0e-b08a-25b6b175c0b7",
+      "word": "ψ",
+      "reading": "psi",
+      "hint": "U+03C8 GREEK SMALL LETTER PSI"
+    },
+    {
+      "id": "84ea03c8-eaf8-5d4a-8ba0-62cfde83c0ea",
+      "word": "ω",
+      "reading": "omega",
+      "hint": "U+03C9 GREEK SMALL LETTER OMEGA"
+    },
+    {
+      "id": "642823eb-18e8-5ecc-ab9c-b8ba177bb4d8",
+      "word": "Α",
+      "reading": "Alpha",
+      "hint": "U+0391 GREEK CAPITAL LETTER ALPHA"
+    },
+    {
+      "id": "9f03394a-a173-5394-9325-ac2bc12eca0b",
+      "word": "Β",
+      "reading": "Beta",
+      "hint": "U+0392 GREEK CAPITAL LETTER BETA"
+    },
+    {
+      "id": "fbb36fb5-0b0c-5afa-a449-4d7c2d9e8ada",
+      "word": "Γ",
+      "reading": "Gamma",
+      "hint": "U+0393 GREEK CAPITAL LETTER GAMMA"
+    },
+    {
+      "id": "7fef64bd-bac5-5034-9340-76d96d410f38",
+      "word": "Δ",
+      "reading": "Delta",
+      "hint": "U+0394 GREEK CAPITAL LETTER DELTA"
+    },
+    {
+      "id": "ee4c4019-1909-5d81-ab57-871e142b9b97",
+      "word": "Ε",
+      "reading": "Epsilon",
+      "hint": "U+0395 GREEK CAPITAL LETTER EPSILON"
+    },
+    {
+      "id": "ffacb6ba-f0bb-559d-b011-6ac06a651a5b",
+      "word": "Ζ",
+      "reading": "Zeta",
+      "hint": "U+0396 GREEK CAPITAL LETTER ZETA"
+    },
+    {
+      "id": "12612483-ed95-5ad2-9b61-24f621b269b1",
+      "word": "Η",
+      "reading": "Eta",
+      "hint": "U+0397 GREEK CAPITAL LETTER ETA"
+    },
+    {
+      "id": "5421a47d-056b-5c24-8303-e92dd716c23a",
+      "word": "Θ",
+      "reading": "Theta",
+      "hint": "U+0398 GREEK CAPITAL LETTER THETA"
+    },
+    {
+      "id": "eda662f9-e5c7-509e-a17e-a91040044472",
+      "word": "Ι",
+      "reading": "Iota",
+      "hint": "U+0399 GREEK CAPITAL LETTER IOTA"
+    },
+    {
+      "id": "399039a8-1e9a-5f12-b866-8d51a40a02e2",
+      "word": "Κ",
+      "reading": "Kappa",
+      "hint": "U+039A GREEK CAPITAL LETTER KAPPA"
+    },
+    {
+      "id": "6d13b67f-86b5-5330-ac72-06d90204a37f",
+      "word": "Λ",
+      "reading": "Lambda",
+      "hint": "U+039B GREEK CAPITAL LETTER LAMDA"
+    },
+    {
+      "id": "427d224d-1c44-559e-9c77-1e786c966155",
+      "word": "Μ",
+      "reading": "Mu",
+      "hint": "U+039C GREEK CAPITAL LETTER MU"
+    },
+    {
+      "id": "ad0b655e-d6c0-59cd-a8a8-aae8e8539775",
+      "word": "Ν",
+      "reading": "Nu",
+      "hint": "U+039D GREEK CAPITAL LETTER NU"
+    },
+    {
+      "id": "499187c3-1ca2-5db4-99b4-6747cd119b4b",
+      "word": "Ξ",
+      "reading": "Xi",
+      "hint": "U+039E GREEK CAPITAL LETTER XI"
+    },
+    {
+      "id": "7c2832c4-08b2-507c-8e4d-3e654f8dc97d",
+      "word": "Ο",
+      "reading": "Omicron",
+      "hint": "U+039F GREEK CAPITAL LETTER OMICRON"
+    },
+    {
+      "id": "0e525d29-b5ae-58bd-ae08-2422e0c4190d",
+      "word": "Π",
+      "reading": "Pi",
+      "hint": "U+03A0 GREEK CAPITAL LETTER PI"
+    },
+    {
+      "id": "452ad27d-483d-5100-b07b-56f057fe8b31",
+      "word": "Ρ",
+      "reading": "Rho",
+      "hint": "U+03A1 GREEK CAPITAL LETTER RHO"
+    },
+    {
+      "id": "9a1c690a-40a7-55b7-a7bf-49ab3b3c9579",
+      "word": "Σ",
+      "reading": "Sigma",
+      "hint": "U+03A3 GREEK CAPITAL LETTER SIGMA"
+    },
+    {
+      "id": "83cdc4a0-c168-58a4-972d-1cf29741fc40",
+      "word": "Τ",
+      "reading": "Tau",
+      "hint": "U+03A4 GREEK CAPITAL LETTER TAU"
+    },
+    {
+      "id": "75122fbf-8d83-5109-b745-f1e8f11cf8fd",
+      "word": "Υ",
+      "reading": "Upsilon",
+      "hint": "U+03A5 GREEK CAPITAL LETTER UPSILON"
+    },
+    {
+      "id": "b7da92d0-5766-5b77-bb44-56eb3b549e3a",
+      "word": "Φ",
+      "reading": "Phi",
+      "hint": "U+03A6 GREEK CAPITAL LETTER PHI"
+    },
+    {
+      "id": "23cee9f5-3920-5973-ab2b-1d663d5cbf81",
+      "word": "Χ",
+      "reading": "Chi",
+      "hint": "U+03A7 GREEK CAPITAL LETTER CHI"
+    },
+    {
+      "id": "804bedd9-ae4c-5793-8126-06cf61c70195",
+      "word": "Ψ",
+      "reading": "Psi",
+      "hint": "U+03A8 GREEK CAPITAL LETTER PSI"
+    },
+    {
+      "id": "370ad52b-1ce7-5d11-8a31-2b99d16c9789",
+      "word": "Ω",
+      "reading": "Omega",
+      "hint": "U+03A9 GREEK CAPITAL LETTER OMEGA"
+    },
+    {
+      "id": "76fcde62-55a0-540c-b31d-2f8ce842b2a9",
+      "word": "Ϝ",
+      "reading": "Digamma",
+      "hint": "U+03DC GREEK LETTER DIGAMMA"
+    },
+    {
+      "id": "5addf20e-2301-529a-ad06-5d3ef071aad0",
+      "word": "Α",
+      "reading": "ualpha",
+      "hint": "U+0391 GREEK CAPITAL LETTER ALPHA"
+    },
+    {
+      "id": "b3efa936-0214-5840-beef-907141b623b2",
+      "word": "Α",
+      "reading": "capalpha",
+      "hint": "U+0391 GREEK CAPITAL LETTER ALPHA"
+    },
+    {
+      "id": "c76ce5fb-07eb-5a37-8ea3-3d425f02a393",
+      "word": "Β",
+      "reading": "ubeta",
+      "hint": "U+0392 GREEK CAPITAL LETTER BETA"
+    },
+    {
+      "id": "48d3dde5-2501-53d6-9e53-f2a0d264418c",
+      "word": "Β",
+      "reading": "capbeta",
+      "hint": "U+0392 GREEK CAPITAL LETTER BETA"
+    },
+    {
+      "id": "42f8ad30-7d92-5d6a-9921-28c4bcdbd6a0",
+      "word": "Γ",
+      "reading": "ugamma",
+      "hint": "U+0393 GREEK CAPITAL LETTER GAMMA"
+    },
+    {
+      "id": "b33061c7-185b-5a5b-a4df-4a98e4326769",
+      "word": "Γ",
+      "reading": "capgamma",
+      "hint": "U+0393 GREEK CAPITAL LETTER GAMMA"
+    },
+    {
+      "id": "c4855f93-3dc2-53b1-873e-9da3210befad",
+      "word": "Δ",
+      "reading": "udelta",
+      "hint": "U+0394 GREEK CAPITAL LETTER DELTA"
+    },
+    {
+      "id": "7f526ab9-cb31-50a4-9473-916290bb4f73",
+      "word": "Δ",
+      "reading": "capdelta",
+      "hint": "U+0394 GREEK CAPITAL LETTER DELTA"
+    },
+    {
+      "id": "ab04b28b-d73a-5b10-8e69-bd47935e3bc6",
+      "word": "Ε",
+      "reading": "uepsilon",
+      "hint": "U+0395 GREEK CAPITAL LETTER EPSILON"
+    },
+    {
+      "id": "50aef00d-9d84-57a1-b980-636762de0c68",
+      "word": "Ε",
+      "reading": "capepsilon",
+      "hint": "U+0395 GREEK CAPITAL LETTER EPSILON"
+    },
+    {
+      "id": "29f6d149-dc34-51e7-958b-f27f226a1afb",
+      "word": "Ζ",
+      "reading": "uzeta",
+      "hint": "U+0396 GREEK CAPITAL LETTER ZETA"
+    },
+    {
+      "id": "41e42d16-2424-551c-b319-e9b7ccf8ef67",
+      "word": "Ζ",
+      "reading": "capzeta",
+      "hint": "U+0396 GREEK CAPITAL LETTER ZETA"
+    },
+    {
+      "id": "ef659015-d9f8-5858-8054-caec58557fab",
+      "word": "Η",
+      "reading": "ueta",
+      "hint": "U+0397 GREEK CAPITAL LETTER ETA"
+    },
+    {
+      "id": "862eac29-2732-551c-9730-fd1404e1295a",
+      "word": "Η",
+      "reading": "capeta",
+      "hint": "U+0397 GREEK CAPITAL LETTER ETA"
+    },
+    {
+      "id": "1e198f13-aaca-50fb-953e-d863df3c75c9",
+      "word": "Θ",
+      "reading": "utheta",
+      "hint": "U+0398 GREEK CAPITAL LETTER THETA"
+    },
+    {
+      "id": "0345496b-6e0c-525d-9ae4-a9310b107b9c",
+      "word": "Θ",
+      "reading": "captheta",
+      "hint": "U+0398 GREEK CAPITAL LETTER THETA"
+    },
+    {
+      "id": "64cd7dce-153f-55d8-9d41-ebb090643b24",
+      "word": "Ι",
+      "reading": "uiota",
+      "hint": "U+0399 GREEK CAPITAL LETTER IOTA"
+    },
+    {
+      "id": "b8339183-1f04-5488-8d94-420e0670f106",
+      "word": "Ι",
+      "reading": "capiota",
+      "hint": "U+0399 GREEK CAPITAL LETTER IOTA"
+    },
+    {
+      "id": "75d9ed8a-0620-5544-8680-73e6cd228d18",
+      "word": "Κ",
+      "reading": "ukappa",
+      "hint": "U+039A GREEK CAPITAL LETTER KAPPA"
+    },
+    {
+      "id": "f793a734-a170-5c72-9f0c-f0b5429b34fb",
+      "word": "Κ",
+      "reading": "capkappa",
+      "hint": "U+039A GREEK CAPITAL LETTER KAPPA"
+    },
+    {
+      "id": "12142efc-5d95-5e73-ba32-6515df8cdc58",
+      "word": "Λ",
+      "reading": "ulambda",
+      "hint": "U+039B GREEK CAPITAL LETTER LAMDA"
+    },
+    {
+      "id": "837e37b7-4491-524c-8241-d55226c57683",
+      "word": "Λ",
+      "reading": "caplambda",
+      "hint": "U+039B GREEK CAPITAL LETTER LAMDA"
+    },
+    {
+      "id": "a5a1d0df-ea0b-5283-8e71-58cee1c0f341",
+      "word": "Μ",
+      "reading": "umu",
+      "hint": "U+039C GREEK CAPITAL LETTER MU"
+    },
+    {
+      "id": "025a7921-3c2f-5beb-9ae2-84532d85a92b",
+      "word": "Μ",
+      "reading": "capmu",
+      "hint": "U+039C GREEK CAPITAL LETTER MU"
+    },
+    {
+      "id": "eb6499a4-c8a6-54bf-b819-e5872b67529c",
+      "word": "Ν",
+      "reading": "unu",
+      "hint": "U+039D GREEK CAPITAL LETTER NU"
+    },
+    {
+      "id": "74be6e9f-74f7-56c6-a8e5-3225e3b74c4d",
+      "word": "Ν",
+      "reading": "capnu",
+      "hint": "U+039D GREEK CAPITAL LETTER NU"
+    },
+    {
+      "id": "9c2dbc32-5e9c-515d-85d4-7cf04ab8959e",
+      "word": "Ξ",
+      "reading": "uxi",
+      "hint": "U+039E GREEK CAPITAL LETTER XI"
+    },
+    {
+      "id": "bb613d1b-830e-5f8d-a3b1-3e394bc802a5",
+      "word": "Ξ",
+      "reading": "capxi",
+      "hint": "U+039E GREEK CAPITAL LETTER XI"
+    },
+    {
+      "id": "b28603bd-3131-51ba-b898-063fc20dfeb9",
+      "word": "Ο",
+      "reading": "uomicron",
+      "hint": "U+039F GREEK CAPITAL LETTER OMICRON"
+    },
+    {
+      "id": "0cc888d7-ce82-54b9-8101-9e134e617374",
+      "word": "Ο",
+      "reading": "capomicron",
+      "hint": "U+039F GREEK CAPITAL LETTER OMICRON"
+    },
+    {
+      "id": "372997ca-88a6-566a-bce3-2983895f6d7b",
+      "word": "Π",
+      "reading": "upi",
+      "hint": "U+03A0 GREEK CAPITAL LETTER PI"
+    },
+    {
+      "id": "a50c8862-8955-5a6e-b96a-12eb21e33d4f",
+      "word": "Π",
+      "reading": "cappi",
+      "hint": "U+03A0 GREEK CAPITAL LETTER PI"
+    },
+    {
+      "id": "2571310b-a8a1-521b-ad37-c24a4a114ce0",
+      "word": "Ρ",
+      "reading": "urho",
+      "hint": "U+03A1 GREEK CAPITAL LETTER RHO"
+    },
+    {
+      "id": "0fced9de-e473-53b3-82eb-617bde6873ee",
+      "word": "Ρ",
+      "reading": "caprho",
+      "hint": "U+03A1 GREEK CAPITAL LETTER RHO"
+    },
+    {
+      "id": "ab742f22-3110-58db-bdbb-c309eb5a0ebb",
+      "word": "Σ",
+      "reading": "usigma",
+      "hint": "U+03A3 GREEK CAPITAL LETTER SIGMA"
+    },
+    {
+      "id": "4e2aa95c-4e05-558f-89c7-7d512dfa99b6",
+      "word": "Σ",
+      "reading": "capsigma",
+      "hint": "U+03A3 GREEK CAPITAL LETTER SIGMA"
+    },
+    {
+      "id": "4514ae5d-48d4-5cbf-87fc-c032e17f7ba5",
+      "word": "Τ",
+      "reading": "utau",
+      "hint": "U+03A4 GREEK CAPITAL LETTER TAU"
+    },
+    {
+      "id": "607b7504-369c-5cc9-8303-c6fc0809db10",
+      "word": "Τ",
+      "reading": "captau",
+      "hint": "U+03A4 GREEK CAPITAL LETTER TAU"
+    },
+    {
+      "id": "af41df54-6eb6-5f40-9910-d191fcfffe92",
+      "word": "Υ",
+      "reading": "uupsilon",
+      "hint": "U+03A5 GREEK CAPITAL LETTER UPSILON"
+    },
+    {
+      "id": "eeb66e96-b0d8-588d-af43-259445d3c8d3",
+      "word": "Υ",
+      "reading": "capupsilon",
+      "hint": "U+03A5 GREEK CAPITAL LETTER UPSILON"
+    },
+    {
+      "id": "1c47ad57-f888-5c35-a70c-d7eaa25d4248",
+      "word": "Φ",
+      "reading": "uphi",
+      "hint": "U+03A6 GREEK CAPITAL LETTER PHI"
+    },
+    {
+      "id": "e64bab6f-8cd3-51bc-980b-4ed2e1394925",
+      "word": "Φ",
+      "reading": "capphi",
+      "hint": "U+03A6 GREEK CAPITAL LETTER PHI"
+    },
+    {
+      "id": "fa843915-834b-5618-bfe3-4abae51bf770",
+      "word": "Χ",
+      "reading": "uchi",
+      "hint": "U+03A7 GREEK CAPITAL LETTER CHI"
+    },
+    {
+      "id": "4bfed818-e674-5e0c-8dee-4d7af7362b1b",
+      "word": "Χ",
+      "reading": "capchi",
+      "hint": "U+03A7 GREEK CAPITAL LETTER CHI"
+    },
+    {
+      "id": "8e7e27f2-a258-5307-a0c5-5a8f64803996",
+      "word": "Ψ",
+      "reading": "upsi",
+      "hint": "U+03A8 GREEK CAPITAL LETTER PSI"
+    },
+    {
+      "id": "c8047173-5f7f-5cb5-b069-29a7629e9cb7",
+      "word": "Ψ",
+      "reading": "cappsi",
+      "hint": "U+03A8 GREEK CAPITAL LETTER PSI"
+    },
+    {
+      "id": "b7719880-026d-5048-a429-f5239f13f36e",
+      "word": "Ω",
+      "reading": "uomega",
+      "hint": "U+03A9 GREEK CAPITAL LETTER OMEGA"
+    },
+    {
+      "id": "a13cfd1e-f4cb-558f-aded-865b43f4a8aa",
+      "word": "Ω",
+      "reading": "capomega",
+      "hint": "U+03A9 GREEK CAPITAL LETTER OMEGA"
+    },
+    {
+      "id": "b44c721e-e5b6-5094-bd55-13625783a821",
+      "word": "Ϝ",
+      "reading": "udigamma",
+      "hint": "U+03DC GREEK LETTER DIGAMMA"
+    },
+    {
+      "id": "acc3d09f-7705-5900-ae9c-13b6b90d7389",
+      "word": "Ϝ",
+      "reading": "capdigamma",
+      "hint": "U+03DC GREEK LETTER DIGAMMA"
+    },
+    {
+      "id": "3d162653-2cef-5190-9c4d-6c0f12bed7a7",
+      "word": "ℕ",
+      "reading": "naturals",
+      "hint": "U+2115 DOUBLE-STRUCK CAPITAL N"
+    },
+    {
+      "id": "995733af-3d77-54a3-bcf5-b38aa36d8f7e",
+      "word": "ℕ",
+      "reading": "natural",
+      "hint": "U+2115 DOUBLE-STRUCK CAPITAL N"
+    },
+    {
+      "id": "b634bddb-f7ea-55d3-ba7b-f960e42ce180",
+      "word": "ℕ",
+      "reading": "NN",
+      "hint": "U+2115 DOUBLE-STRUCK CAPITAL N"
+    },
+    {
+      "id": "56716edd-8cf1-5e5b-a1e2-ed63e6f7b03c",
+      "word": "ℕ",
+      "reading": "bbn",
+      "hint": "U+2115 DOUBLE-STRUCK CAPITAL N"
+    },
+    {
+      "id": "cd067804-5100-5cb4-bb5f-4e9e36e009f3",
+      "word": "ℤ",
+      "reading": "integers",
+      "hint": "U+2124 DOUBLE-STRUCK CAPITAL Z"
+    },
+    {
+      "id": "2d91ab06-705b-5690-9ae3-1460f9e5ccf3",
+      "word": "ℤ",
+      "reading": "integer",
+      "hint": "U+2124 DOUBLE-STRUCK CAPITAL Z"
+    },
+    {
+      "id": "78b7668f-8f62-525c-9370-ec1715565aad",
+      "word": "ℤ",
+      "reading": "ZZ",
+      "hint": "U+2124 DOUBLE-STRUCK CAPITAL Z"
+    },
+    {
+      "id": "ea08ebdd-f821-5fab-8a64-f62e9986cb81",
+      "word": "ℤ",
+      "reading": "bbz",
+      "hint": "U+2124 DOUBLE-STRUCK CAPITAL Z"
+    },
+    {
+      "id": "159bbc8b-52b4-538a-82fa-8d234c9793ca",
+      "word": "ℚ",
+      "reading": "rationals",
+      "hint": "U+211A DOUBLE-STRUCK CAPITAL Q"
+    },
+    {
+      "id": "b5b28184-83bf-5275-a3eb-a58951c70e6a",
+      "word": "ℚ",
+      "reading": "rational",
+      "hint": "U+211A DOUBLE-STRUCK CAPITAL Q"
+    },
+    {
+      "id": "a21ba542-49e1-5a7d-80aa-b05862f6b577",
+      "word": "ℚ",
+      "reading": "QQ",
+      "hint": "U+211A DOUBLE-STRUCK CAPITAL Q"
+    },
+    {
+      "id": "6505165a-e91e-5326-ac4e-f50f8b71d7fc",
+      "word": "ℚ",
+      "reading": "bbq",
+      "hint": "U+211A DOUBLE-STRUCK CAPITAL Q"
+    },
+    {
+      "id": "dac83d2c-da54-5141-9172-14a8f6a9d5dd",
+      "word": "ℝ",
+      "reading": "reals",
+      "hint": "U+211D DOUBLE-STRUCK CAPITAL R"
+    },
+    {
+      "id": "7a56a2c4-71df-5cce-9cf9-0892d33b6112",
+      "word": "ℝ",
+      "reading": "real",
+      "hint": "U+211D DOUBLE-STRUCK CAPITAL R"
+    },
+    {
+      "id": "4fb7de22-e24b-535f-9433-4cca5ca8ffd4",
+      "word": "ℝ",
+      "reading": "RR",
+      "hint": "U+211D DOUBLE-STRUCK CAPITAL R"
+    },
+    {
+      "id": "abe16d21-58c8-59d7-81f2-ce04b35a6171",
+      "word": "ℝ",
+      "reading": "bbr",
+      "hint": "U+211D DOUBLE-STRUCK CAPITAL R"
+    },
+    {
+      "id": "0905ce3e-44b5-5ab1-af37-d5a6e4d3a636",
+      "word": "ℂ",
+      "reading": "complex",
+      "hint": "U+2102 DOUBLE-STRUCK CAPITAL C"
+    },
+    {
+      "id": "6b5b532b-9e58-57a9-9832-cb00475edd41",
+      "word": "ℂ",
+      "reading": "complexes",
+      "hint": "U+2102 DOUBLE-STRUCK CAPITAL C"
+    },
+    {
+      "id": "22800e2c-b863-58c0-8b2c-84595af905e7",
+      "word": "ℂ",
+      "reading": "CC",
+      "hint": "U+2102 DOUBLE-STRUCK CAPITAL C"
+    },
+    {
+      "id": "a5af5a22-432f-5e83-9dc4-85bbfdd8bc0d",
+      "word": "ℂ",
+      "reading": "bbc",
+      "hint": "U+2102 DOUBLE-STRUCK CAPITAL C"
+    },
+    {
+      "id": "d908cc8d-2856-5532-9e00-91ee6c380a5b",
+      "word": "ℙ",
+      "reading": "primeset",
+      "hint": "U+2119 DOUBLE-STRUCK CAPITAL P"
+    },
+    {
+      "id": "5a523506-3c90-578b-b21d-b94a0380a4d9",
+      "word": "ℙ",
+      "reading": "PP",
+      "hint": "U+2119 DOUBLE-STRUCK CAPITAL P"
+    },
+    {
+      "id": "75113e69-d1bb-5c3f-99c1-84db87a9478d",
+      "word": "ℙ",
+      "reading": "bbp",
+      "hint": "U+2119 DOUBLE-STRUCK CAPITAL P"
+    },
+    {
+      "id": "0da75c1f-c6c8-5cce-bf9c-a4f4cf50e97b",
+      "word": "𝔸",
+      "reading": "bbA",
+      "hint": "U+1D538 MATHEMATICAL DOUBLE-STRUCK CAPITAL A"
+    },
+    {
+      "id": "6f6869ed-6a50-523a-95fb-600d81b05c1f",
+      "word": "𝔸",
+      "reading": "bba",
+      "hint": "U+1D538 MATHEMATICAL DOUBLE-STRUCK CAPITAL A"
+    },
+    {
+      "id": "dfc7c5f7-400b-5fca-8c36-872ec914b41a",
+      "word": "𝔹",
+      "reading": "bbB",
+      "hint": "U+1D539 MATHEMATICAL DOUBLE-STRUCK CAPITAL B"
+    },
+    {
+      "id": "0f09b9be-392f-5dc3-8bf0-c6638ba60fe6",
+      "word": "𝔹",
+      "reading": "bbb",
+      "hint": "U+1D539 MATHEMATICAL DOUBLE-STRUCK CAPITAL B"
+    },
+    {
+      "id": "e28e97de-0074-5a2c-af3c-9c75158d6c53",
+      "word": "𝔻",
+      "reading": "bbD",
+      "hint": "U+1D53B MATHEMATICAL DOUBLE-STRUCK CAPITAL D"
+    },
+    {
+      "id": "47fae627-fe21-5849-851f-2fdeb0792976",
+      "word": "𝔻",
+      "reading": "bbd",
+      "hint": "U+1D53B MATHEMATICAL DOUBLE-STRUCK CAPITAL D"
+    },
+    {
+      "id": "dd8283e2-83da-5342-832c-b9d90a9f5fce",
+      "word": "𝔼",
+      "reading": "bbE",
+      "hint": "U+1D53C MATHEMATICAL DOUBLE-STRUCK CAPITAL E"
+    },
+    {
+      "id": "67a5f04b-9c80-5c36-b0c8-dae27c709d80",
+      "word": "𝔼",
+      "reading": "bbe",
+      "hint": "U+1D53C MATHEMATICAL DOUBLE-STRUCK CAPITAL E"
+    },
+    {
+      "id": "b30a67b3-ca07-5427-9796-07879cb9df13",
+      "word": "𝔽",
+      "reading": "bbF",
+      "hint": "U+1D53D MATHEMATICAL DOUBLE-STRUCK CAPITAL F"
+    },
+    {
+      "id": "5c0ff482-df45-5301-a30d-ec4785e9e6f4",
+      "word": "𝔽",
+      "reading": "bbf",
+      "hint": "U+1D53D MATHEMATICAL DOUBLE-STRUCK CAPITAL F"
+    },
+    {
+      "id": "1be8a8c2-5f20-51f6-94be-69271bdd1cc4",
+      "word": "𝔾",
+      "reading": "bbG",
+      "hint": "U+1D53E MATHEMATICAL DOUBLE-STRUCK CAPITAL G"
+    },
+    {
+      "id": "528a37e2-af21-5627-bb4a-6d6c77f0e982",
+      "word": "𝔾",
+      "reading": "bbg",
+      "hint": "U+1D53E MATHEMATICAL DOUBLE-STRUCK CAPITAL G"
+    },
+    {
+      "id": "9d53a062-d974-5463-beff-e11ee3b2b72e",
+      "word": "ℍ",
+      "reading": "bbH",
+      "hint": "U+210D DOUBLE-STRUCK CAPITAL H"
+    },
+    {
+      "id": "cbe2ff3c-928c-55b4-acee-eac791221f9e",
+      "word": "ℍ",
+      "reading": "HH",
+      "hint": "U+210D DOUBLE-STRUCK CAPITAL H"
+    },
+    {
+      "id": "7fec9efd-d87d-5653-ad7b-197e24a9139b",
+      "word": "ℍ",
+      "reading": "bbh",
+      "hint": "U+210D DOUBLE-STRUCK CAPITAL H"
+    },
+    {
+      "id": "98e2c29d-9eee-5512-a329-9b7de7eab0d6",
+      "word": "𝕀",
+      "reading": "bbI",
+      "hint": "U+1D540 MATHEMATICAL DOUBLE-STRUCK CAPITAL I"
+    },
+    {
+      "id": "eaf8a5ec-44aa-5c1b-a023-24283156a3d6",
+      "word": "𝕀",
+      "reading": "bbi",
+      "hint": "U+1D540 MATHEMATICAL DOUBLE-STRUCK CAPITAL I"
+    },
+    {
+      "id": "bc0eaba3-6d61-5f29-81cb-f4d9c594ef75",
+      "word": "𝕁",
+      "reading": "bbJ",
+      "hint": "U+1D541 MATHEMATICAL DOUBLE-STRUCK CAPITAL J"
+    },
+    {
+      "id": "40f296be-e937-5e56-8041-a92d2538138f",
+      "word": "𝕁",
+      "reading": "bbj",
+      "hint": "U+1D541 MATHEMATICAL DOUBLE-STRUCK CAPITAL J"
+    },
+    {
+      "id": "d8038cd3-8a64-5903-be07-74bfdc10c6f9",
+      "word": "𝕂",
+      "reading": "bbK",
+      "hint": "U+1D542 MATHEMATICAL DOUBLE-STRUCK CAPITAL K"
+    },
+    {
+      "id": "2b5b8462-ebfe-595e-ae86-4d64cb040ba3",
+      "word": "𝕂",
+      "reading": "bbk",
+      "hint": "U+1D542 MATHEMATICAL DOUBLE-STRUCK CAPITAL K"
+    },
+    {
+      "id": "814fcc9a-6083-5ded-b07c-77e044e685ac",
+      "word": "𝕃",
+      "reading": "bbL",
+      "hint": "U+1D543 MATHEMATICAL DOUBLE-STRUCK CAPITAL L"
+    },
+    {
+      "id": "79cc0bdc-6e73-5068-a096-df6b0b24caf2",
+      "word": "𝕃",
+      "reading": "bbl",
+      "hint": "U+1D543 MATHEMATICAL DOUBLE-STRUCK CAPITAL L"
+    },
+    {
+      "id": "e7bb0a5b-d2e0-5752-87df-9aee38e295d5",
+      "word": "𝕄",
+      "reading": "bbM",
+      "hint": "U+1D544 MATHEMATICAL DOUBLE-STRUCK CAPITAL M"
+    },
+    {
+      "id": "6208c7c4-5354-5486-9ba7-81b5160d4783",
+      "word": "𝕄",
+      "reading": "bbm",
+      "hint": "U+1D544 MATHEMATICAL DOUBLE-STRUCK CAPITAL M"
+    },
+    {
+      "id": "91bcac06-e31b-5b40-9acc-f285b3e703fa",
+      "word": "𝕆",
+      "reading": "bbO",
+      "hint": "U+1D546 MATHEMATICAL DOUBLE-STRUCK CAPITAL O"
+    },
+    {
+      "id": "73e83bbe-3f1e-5459-b766-9073a12e829e",
+      "word": "𝕆",
+      "reading": "bbo",
+      "hint": "U+1D546 MATHEMATICAL DOUBLE-STRUCK CAPITAL O"
+    },
+    {
+      "id": "d0c21752-da15-53d9-94e7-f05878fa16c4",
+      "word": "𝕊",
+      "reading": "bbS",
+      "hint": "U+1D54A MATHEMATICAL DOUBLE-STRUCK CAPITAL S"
+    },
+    {
+      "id": "c4de13d0-ab35-5e6c-b230-9ec97ced89a7",
+      "word": "𝕊",
+      "reading": "bbs",
+      "hint": "U+1D54A MATHEMATICAL DOUBLE-STRUCK CAPITAL S"
+    },
+    {
+      "id": "e3fdd26d-1981-53b2-80ed-bc62ba46e90b",
+      "word": "𝕋",
+      "reading": "bbT",
+      "hint": "U+1D54B MATHEMATICAL DOUBLE-STRUCK CAPITAL T"
+    },
+    {
+      "id": "83be1b99-d894-5215-b262-1d51862978dd",
+      "word": "𝕋",
+      "reading": "bbt",
+      "hint": "U+1D54B MATHEMATICAL DOUBLE-STRUCK CAPITAL T"
+    },
+    {
+      "id": "30cea3d9-fdeb-51ef-acd8-d58f965aa0cc",
+      "word": "𝕌",
+      "reading": "bbU",
+      "hint": "U+1D54C MATHEMATICAL DOUBLE-STRUCK CAPITAL U"
+    },
+    {
+      "id": "1871dde5-10df-5c9d-99c2-67c74135af9b",
+      "word": "𝕌",
+      "reading": "bbu",
+      "hint": "U+1D54C MATHEMATICAL DOUBLE-STRUCK CAPITAL U"
+    },
+    {
+      "id": "e7db3c10-4b23-50a3-9015-250cd148bc1f",
+      "word": "𝕍",
+      "reading": "bbV",
+      "hint": "U+1D54D MATHEMATICAL DOUBLE-STRUCK CAPITAL V"
+    },
+    {
+      "id": "14963d70-e5f3-5353-8a31-2adb505a8bd2",
+      "word": "𝕍",
+      "reading": "bbv",
+      "hint": "U+1D54D MATHEMATICAL DOUBLE-STRUCK CAPITAL V"
+    },
+    {
+      "id": "38bf84aa-f844-5d2e-9030-c1ba23842b78",
+      "word": "𝕎",
+      "reading": "bbW",
+      "hint": "U+1D54E MATHEMATICAL DOUBLE-STRUCK CAPITAL W"
+    },
+    {
+      "id": "0625fbf3-8baa-513d-bc7a-bab2b1c49df0",
+      "word": "𝕎",
+      "reading": "bbw",
+      "hint": "U+1D54E MATHEMATICAL DOUBLE-STRUCK CAPITAL W"
+    },
+    {
+      "id": "aa29a427-cea8-5ead-9cf3-12383533cca7",
+      "word": "𝕏",
+      "reading": "bbX",
+      "hint": "U+1D54F MATHEMATICAL DOUBLE-STRUCK CAPITAL X"
+    },
+    {
+      "id": "6adea756-47e1-5e95-987f-07709898f185",
+      "word": "𝕏",
+      "reading": "bbx",
+      "hint": "U+1D54F MATHEMATICAL DOUBLE-STRUCK CAPITAL X"
+    },
+    {
+      "id": "737564b2-60df-5b07-a767-1a9633261c8d",
+      "word": "𝕐",
+      "reading": "bbY",
+      "hint": "U+1D550 MATHEMATICAL DOUBLE-STRUCK CAPITAL Y"
+    },
+    {
+      "id": "bee6f683-a54d-5b7e-87ff-df6b108de0e4",
+      "word": "𝕐",
+      "reading": "bby",
+      "hint": "U+1D550 MATHEMATICAL DOUBLE-STRUCK CAPITAL Y"
+    },
+    {
+      "id": "965c4e94-0dff-5da3-abe3-6a3935d9692b",
+      "word": "𝒜",
+      "reading": "calA",
+      "hint": "U+1D49C MATHEMATICAL SCRIPT CAPITAL A"
+    },
+    {
+      "id": "812d3ed4-5c0f-5013-9715-435a70e1f5ed",
+      "word": "ℬ",
+      "reading": "calB",
+      "hint": "U+212C SCRIPT CAPITAL B"
+    },
+    {
+      "id": "39e90380-78dc-5a9e-98b7-a9854582bbc9",
+      "word": "𝒞",
+      "reading": "calC",
+      "hint": "U+1D49E MATHEMATICAL SCRIPT CAPITAL C"
+    },
+    {
+      "id": "ea5cdf10-a1d8-5407-ad3c-f54e934240c4",
+      "word": "𝒟",
+      "reading": "calD",
+      "hint": "U+1D49F MATHEMATICAL SCRIPT CAPITAL D"
+    },
+    {
+      "id": "990bed61-dcd0-5efa-a23c-4cf724fb5ffc",
+      "word": "ℰ",
+      "reading": "calE",
+      "hint": "U+2130 SCRIPT CAPITAL E"
+    },
+    {
+      "id": "69a82918-108c-5a50-b060-e8d28f57f8db",
+      "word": "ℱ",
+      "reading": "calF",
+      "hint": "U+2131 SCRIPT CAPITAL F"
+    },
+    {
+      "id": "a2f0354c-42eb-5cc2-9f24-14198db98d10",
+      "word": "𝒢",
+      "reading": "calG",
+      "hint": "U+1D4A2 MATHEMATICAL SCRIPT CAPITAL G"
+    },
+    {
+      "id": "3a2f2a16-7f69-5c33-9814-6844f3eb04c6",
+      "word": "ℋ",
+      "reading": "calH",
+      "hint": "U+210B SCRIPT CAPITAL H"
+    },
+    {
+      "id": "5fd03768-47b6-5ce9-9cf3-a1d0d48f006d",
+      "word": "ℐ",
+      "reading": "calI",
+      "hint": "U+2110 SCRIPT CAPITAL I"
+    },
+    {
+      "id": "bb23670f-674d-5fdd-a7ed-fa80e6fc7110",
+      "word": "𝒥",
+      "reading": "calJ",
+      "hint": "U+1D4A5 MATHEMATICAL SCRIPT CAPITAL J"
+    },
+    {
+      "id": "ce8315f4-9e84-564f-a3b5-a28258795772",
+      "word": "𝒦",
+      "reading": "calK",
+      "hint": "U+1D4A6 MATHEMATICAL SCRIPT CAPITAL K"
+    },
+    {
+      "id": "bbfd12ce-cca0-54b4-af4d-17477bbaab26",
+      "word": "ℒ",
+      "reading": "calL",
+      "hint": "U+2112 SCRIPT CAPITAL L"
+    },
+    {
+      "id": "d701c685-e7a6-5971-ba96-bedf6e0ddb3d",
+      "word": "ℳ",
+      "reading": "calM",
+      "hint": "U+2133 SCRIPT CAPITAL M"
+    },
+    {
+      "id": "a701e660-7de1-5b2f-9a8b-fe6df7be6744",
+      "word": "𝒩",
+      "reading": "calN",
+      "hint": "U+1D4A9 MATHEMATICAL SCRIPT CAPITAL N"
+    },
+    {
+      "id": "f36794f0-417f-5b2a-8fc1-05e136578ba0",
+      "word": "𝒪",
+      "reading": "calO",
+      "hint": "U+1D4AA MATHEMATICAL SCRIPT CAPITAL O"
+    },
+    {
+      "id": "8187dcf6-ca5d-516f-8662-524db1b43256",
+      "word": "𝒫",
+      "reading": "calP",
+      "hint": "U+1D4AB MATHEMATICAL SCRIPT CAPITAL P"
+    },
+    {
+      "id": "f72eddf8-bb83-5ae4-ab16-c67993fd649e",
+      "word": "𝒬",
+      "reading": "calQ",
+      "hint": "U+1D4AC MATHEMATICAL SCRIPT CAPITAL Q"
+    },
+    {
+      "id": "f22d418d-0f45-5511-8a58-21490ca2133f",
+      "word": "ℛ",
+      "reading": "calR",
+      "hint": "U+211B SCRIPT CAPITAL R"
+    },
+    {
+      "id": "3b310fef-886c-5728-baa7-b50186fe35f8",
+      "word": "𝒮",
+      "reading": "calS",
+      "hint": "U+1D4AE MATHEMATICAL SCRIPT CAPITAL S"
+    },
+    {
+      "id": "7e7abec3-653e-5a3d-9ea3-bb259dacd6e8",
+      "word": "𝒯",
+      "reading": "calT",
+      "hint": "U+1D4AF MATHEMATICAL SCRIPT CAPITAL T"
+    },
+    {
+      "id": "2256b60c-e5ba-57db-958c-869fedc7fefb",
+      "word": "𝒰",
+      "reading": "calU",
+      "hint": "U+1D4B0 MATHEMATICAL SCRIPT CAPITAL U"
+    },
+    {
+      "id": "108d41b8-41dc-599d-842d-0bc8b92d33c7",
+      "word": "𝒱",
+      "reading": "calV",
+      "hint": "U+1D4B1 MATHEMATICAL SCRIPT CAPITAL V"
+    },
+    {
+      "id": "4b66fe94-b124-55cb-992c-4af7f6dde0b8",
+      "word": "𝒲",
+      "reading": "calW",
+      "hint": "U+1D4B2 MATHEMATICAL SCRIPT CAPITAL W"
+    },
+    {
+      "id": "bbf286c0-502d-5fcd-a365-2011c005056c",
+      "word": "𝒳",
+      "reading": "calX",
+      "hint": "U+1D4B3 MATHEMATICAL SCRIPT CAPITAL X"
+    },
+    {
+      "id": "6bf78e22-9d6c-5b0a-b923-e0da2f12dc5a",
+      "word": "𝒴",
+      "reading": "calY",
+      "hint": "U+1D4B4 MATHEMATICAL SCRIPT CAPITAL Y"
+    },
+    {
+      "id": "2e1ccfdc-e881-5779-8493-7024fe8c345d",
+      "word": "𝒵",
+      "reading": "calZ",
+      "hint": "U+1D4B5 MATHEMATICAL SCRIPT CAPITAL Z"
+    },
+    {
+      "id": "14ada3d1-0a7d-52f1-969a-7b9863d2da67",
+      "word": "𝔄",
+      "reading": "frakA",
+      "hint": "U+1D504 MATHEMATICAL FRAKTUR CAPITAL A"
+    },
+    {
+      "id": "5a990770-0435-55d0-b0a1-acecb1fe6fe7",
+      "word": "𝔅",
+      "reading": "frakB",
+      "hint": "U+1D505 MATHEMATICAL FRAKTUR CAPITAL B"
+    },
+    {
+      "id": "eea8d0a7-0197-5116-98e0-055cd4411567",
+      "word": "ℭ",
+      "reading": "frakC",
+      "hint": "U+212D BLACK-LETTER CAPITAL C"
+    },
+    {
+      "id": "1371417f-7b12-5f97-a8c6-803065851524",
+      "word": "𝔇",
+      "reading": "frakD",
+      "hint": "U+1D507 MATHEMATICAL FRAKTUR CAPITAL D"
+    },
+    {
+      "id": "fbf117e7-0a7d-567c-aa47-ad3b0673a4e3",
+      "word": "𝔈",
+      "reading": "frakE",
+      "hint": "U+1D508 MATHEMATICAL FRAKTUR CAPITAL E"
+    },
+    {
+      "id": "40ba978f-91a2-5afd-9838-a41f143b05f0",
+      "word": "𝔉",
+      "reading": "frakF",
+      "hint": "U+1D509 MATHEMATICAL FRAKTUR CAPITAL F"
+    },
+    {
+      "id": "c778c332-910b-5c20-a6fe-d6fde1e93da8",
+      "word": "𝔊",
+      "reading": "frakG",
+      "hint": "U+1D50A MATHEMATICAL FRAKTUR CAPITAL G"
+    },
+    {
+      "id": "5ab3e082-c61c-5120-b8bb-631e807b2bcb",
+      "word": "ℌ",
+      "reading": "frakH",
+      "hint": "U+210C BLACK-LETTER CAPITAL H"
+    },
+    {
+      "id": "b96f6f5f-9cea-5ec5-b820-a280d4232387",
+      "word": "ℑ",
+      "reading": "frakI",
+      "hint": "U+2111 BLACK-LETTER CAPITAL I"
+    },
+    {
+      "id": "429a18eb-0767-5446-afb6-fb50d4d276e1",
+      "word": "𝔍",
+      "reading": "frakJ",
+      "hint": "U+1D50D MATHEMATICAL FRAKTUR CAPITAL J"
+    },
+    {
+      "id": "4736e3a2-a0f0-562b-abdc-011b33c8f430",
+      "word": "𝔎",
+      "reading": "frakK",
+      "hint": "U+1D50E MATHEMATICAL FRAKTUR CAPITAL K"
+    },
+    {
+      "id": "256d2b55-cb00-57a6-b0f5-059ba663b4ea",
+      "word": "𝔏",
+      "reading": "frakL",
+      "hint": "U+1D50F MATHEMATICAL FRAKTUR CAPITAL L"
+    },
+    {
+      "id": "4bab4607-ef67-5b22-ae6d-8b61e3513e3f",
+      "word": "𝔐",
+      "reading": "frakM",
+      "hint": "U+1D510 MATHEMATICAL FRAKTUR CAPITAL M"
+    },
+    {
+      "id": "ade478b8-3dff-524e-8a8d-73c56991d0f2",
+      "word": "𝔑",
+      "reading": "frakN",
+      "hint": "U+1D511 MATHEMATICAL FRAKTUR CAPITAL N"
+    },
+    {
+      "id": "d2e12275-ce38-5530-b7f4-38002ac31bc9",
+      "word": "𝔒",
+      "reading": "frakO",
+      "hint": "U+1D512 MATHEMATICAL FRAKTUR CAPITAL O"
+    },
+    {
+      "id": "191a7e85-a558-5e65-8f00-c8ff7709cd7b",
+      "word": "𝔓",
+      "reading": "frakP",
+      "hint": "U+1D513 MATHEMATICAL FRAKTUR CAPITAL P"
+    },
+    {
+      "id": "debcd00a-3a89-5a30-88a0-81c7a49526d9",
+      "word": "𝔔",
+      "reading": "frakQ",
+      "hint": "U+1D514 MATHEMATICAL FRAKTUR CAPITAL Q"
+    },
+    {
+      "id": "98b7bed7-2791-522a-a5f4-bc756593d3f5",
+      "word": "ℜ",
+      "reading": "frakR",
+      "hint": "U+211C BLACK-LETTER CAPITAL R"
+    },
+    {
+      "id": "69167c7a-14b8-5363-9b68-51af91a968e1",
+      "word": "𝔖",
+      "reading": "frakS",
+      "hint": "U+1D516 MATHEMATICAL FRAKTUR CAPITAL S"
+    },
+    {
+      "id": "7a14af83-0e7a-51e6-bba1-2a12d23a8827",
+      "word": "𝔗",
+      "reading": "frakT",
+      "hint": "U+1D517 MATHEMATICAL FRAKTUR CAPITAL T"
+    },
+    {
+      "id": "12458ec7-d557-5974-ae3a-bae77d8a4242",
+      "word": "𝔘",
+      "reading": "frakU",
+      "hint": "U+1D518 MATHEMATICAL FRAKTUR CAPITAL U"
+    },
+    {
+      "id": "6c622d46-16db-5358-ad11-35629677545f",
+      "word": "𝔙",
+      "reading": "frakV",
+      "hint": "U+1D519 MATHEMATICAL FRAKTUR CAPITAL V"
+    },
+    {
+      "id": "3d267a73-46fa-5df4-8494-7828bee138ce",
+      "word": "𝔚",
+      "reading": "frakW",
+      "hint": "U+1D51A MATHEMATICAL FRAKTUR CAPITAL W"
+    },
+    {
+      "id": "cf508446-5e33-5bb1-82e7-417bab0df410",
+      "word": "𝔛",
+      "reading": "frakX",
+      "hint": "U+1D51B MATHEMATICAL FRAKTUR CAPITAL X"
+    },
+    {
+      "id": "a6a82cf9-e2e7-5a5b-8f62-fab689e8c862",
+      "word": "𝔜",
+      "reading": "frakY",
+      "hint": "U+1D51C MATHEMATICAL FRAKTUR CAPITAL Y"
+    },
+    {
+      "id": "01e7f932-c419-5c28-8d04-dad7b19178c6",
+      "word": "ℨ",
+      "reading": "frakZ",
+      "hint": "U+2128 BLACK-LETTER CAPITAL Z"
+    },
+    {
+      "id": "2047ff05-d983-56ae-889a-42a2a08401e2",
+      "word": "⁰",
+      "reading": "sup0",
+      "hint": "U+2070 SUPERSCRIPT ZERO"
+    },
+    {
+      "id": "4700aa44-d162-504d-8f1a-705e35e99e77",
+      "word": "¹",
+      "reading": "sup1",
+      "hint": "U+00B9 SUPERSCRIPT ONE"
+    },
+    {
+      "id": "54d10d07-c676-5866-b122-524149f2ef46",
+      "word": "²",
+      "reading": "sup2",
+      "hint": "U+00B2 SUPERSCRIPT TWO"
+    },
+    {
+      "id": "7f213c9b-af5d-59a9-a2e1-d76af6ba9b18",
+      "word": "³",
+      "reading": "sup3",
+      "hint": "U+00B3 SUPERSCRIPT THREE"
+    },
+    {
+      "id": "ea31606e-d12c-5505-9eed-c19dba728c31",
+      "word": "⁴",
+      "reading": "sup4",
+      "hint": "U+2074 SUPERSCRIPT FOUR"
+    },
+    {
+      "id": "064e572e-6269-5f9f-87bd-9f4847db234c",
+      "word": "⁵",
+      "reading": "sup5",
+      "hint": "U+2075 SUPERSCRIPT FIVE"
+    },
+    {
+      "id": "ecb191bd-6a1d-5c8d-8c5d-7f1c5c7c0cbe",
+      "word": "⁶",
+      "reading": "sup6",
+      "hint": "U+2076 SUPERSCRIPT SIX"
+    },
+    {
+      "id": "484f8af2-91e2-5633-90fd-2b03eb460e44",
+      "word": "⁷",
+      "reading": "sup7",
+      "hint": "U+2077 SUPERSCRIPT SEVEN"
+    },
+    {
+      "id": "f3574d64-8743-5530-bbee-98cf46e97880",
+      "word": "⁸",
+      "reading": "sup8",
+      "hint": "U+2078 SUPERSCRIPT EIGHT"
+    },
+    {
+      "id": "a93312b8-b947-5b87-accd-8dbafd5b5bf3",
+      "word": "⁹",
+      "reading": "sup9",
+      "hint": "U+2079 SUPERSCRIPT NINE"
+    },
+    {
+      "id": "02c47e47-418d-5af0-b82a-7dec1cbe3b32",
+      "word": "⁺",
+      "reading": "supplus",
+      "hint": "U+207A SUPERSCRIPT PLUS SIGN"
+    },
+    {
+      "id": "b4ce3c81-a574-5db5-9fef-f4d570e4ed7c",
+      "word": "⁻",
+      "reading": "supminus",
+      "hint": "U+207B SUPERSCRIPT MINUS"
+    },
+    {
+      "id": "ffb57615-2b98-5393-a2de-5f8b58da7049",
+      "word": "⁼",
+      "reading": "supeq",
+      "hint": "U+207C SUPERSCRIPT EQUALS SIGN"
+    },
+    {
+      "id": "1ef765cf-bb1d-5423-b515-d3d8c197bd66",
+      "word": "⁽",
+      "reading": "suplparen",
+      "hint": "U+207D SUPERSCRIPT LEFT PARENTHESIS"
+    },
+    {
+      "id": "bd25c066-c43a-58d4-b507-e9ba7d3bc708",
+      "word": "⁾",
+      "reading": "suprparen",
+      "hint": "U+207E SUPERSCRIPT RIGHT PARENTHESIS"
+    },
+    {
+      "id": "7fa724ec-07f4-547f-a412-d12d3e20926e",
+      "word": "ⁱ",
+      "reading": "supi",
+      "hint": "U+2071 SUPERSCRIPT LATIN SMALL LETTER I"
+    },
+    {
+      "id": "63b35f0b-3cce-5548-819a-20dbe3963997",
+      "word": "ⁿ",
+      "reading": "supn",
+      "hint": "U+207F SUPERSCRIPT LATIN SMALL LETTER N"
+    },
+    {
+      "id": "acd247fa-da85-52b0-af53-b0df7507c7c0",
+      "word": "₀",
+      "reading": "sub0",
+      "hint": "U+2080 SUBSCRIPT ZERO"
+    },
+    {
+      "id": "5ae7ad96-b6bf-5823-b880-ad14928166c3",
+      "word": "₁",
+      "reading": "sub1",
+      "hint": "U+2081 SUBSCRIPT ONE"
+    },
+    {
+      "id": "6cdb8bd7-d1b1-5575-b1cc-11326f52e842",
+      "word": "₂",
+      "reading": "sub2",
+      "hint": "U+2082 SUBSCRIPT TWO"
+    },
+    {
+      "id": "9c3e79a0-0274-5d0b-85e3-6d1a01a1133e",
+      "word": "₃",
+      "reading": "sub3",
+      "hint": "U+2083 SUBSCRIPT THREE"
+    },
+    {
+      "id": "5a7745af-9af5-5f3a-b37a-1160ba2e4856",
+      "word": "₄",
+      "reading": "sub4",
+      "hint": "U+2084 SUBSCRIPT FOUR"
+    },
+    {
+      "id": "4a998355-7615-5a83-850a-aafa2992b2de",
+      "word": "₅",
+      "reading": "sub5",
+      "hint": "U+2085 SUBSCRIPT FIVE"
+    },
+    {
+      "id": "813e13b9-e2b2-5ca1-acb7-6394b00ad49f",
+      "word": "₆",
+      "reading": "sub6",
+      "hint": "U+2086 SUBSCRIPT SIX"
+    },
+    {
+      "id": "4b225fd4-d435-5d91-9e20-d03cec95e6c8",
+      "word": "₇",
+      "reading": "sub7",
+      "hint": "U+2087 SUBSCRIPT SEVEN"
+    },
+    {
+      "id": "0ab15ea2-6bfe-5e15-be6b-4c5db37ecd19",
+      "word": "₈",
+      "reading": "sub8",
+      "hint": "U+2088 SUBSCRIPT EIGHT"
+    },
+    {
+      "id": "30f9eb00-09ed-5147-bbd8-fa03cf3c8f76",
+      "word": "₉",
+      "reading": "sub9",
+      "hint": "U+2089 SUBSCRIPT NINE"
+    },
+    {
+      "id": "8744aeb8-6f02-5010-aed0-0850454cb3fe",
+      "word": "₊",
+      "reading": "subplus",
+      "hint": "U+208A SUBSCRIPT PLUS SIGN"
+    },
+    {
+      "id": "c4c485f5-467f-53f9-8c86-b16b9380a0c2",
+      "word": "₋",
+      "reading": "subminus",
+      "hint": "U+208B SUBSCRIPT MINUS"
+    },
+    {
+      "id": "6417e94d-d549-517f-981b-39d204f01af1",
+      "word": "₌",
+      "reading": "subeq",
+      "hint": "U+208C SUBSCRIPT EQUALS SIGN"
+    },
+    {
+      "id": "db23262c-32ad-5f7e-af76-b99b4a4482ea",
+      "word": "₍",
+      "reading": "sublparen",
+      "hint": "U+208D SUBSCRIPT LEFT PARENTHESIS"
+    },
+    {
+      "id": "ccfbbf82-9350-59e4-b161-6f40d2aeb4b6",
+      "word": "₎",
+      "reading": "subrparen",
+      "hint": "U+208E SUBSCRIPT RIGHT PARENTHESIS"
+    },
+    {
+      "id": "a41a8557-3b71-5b11-a6db-ff4b075beec1",
+      "word": "ₐ",
+      "reading": "suba",
+      "hint": "U+2090 LATIN SUBSCRIPT SMALL LETTER A"
+    },
+    {
+      "id": "d8494b32-2096-58f3-8e46-1732f73afbbc",
+      "word": "ₕ",
+      "reading": "subh",
+      "hint": "U+2095 LATIN SUBSCRIPT SMALL LETTER H"
+    },
+    {
+      "id": "79bfa368-e499-59ef-a225-a0f171e2bdbf",
+      "word": "ᵢ",
+      "reading": "subi",
+      "hint": "U+1D62 LATIN SUBSCRIPT SMALL LETTER I"
+    },
+    {
+      "id": "6ae3a46d-4b62-5e54-b7ea-900410b4e609",
+      "word": "ⱼ",
+      "reading": "subj",
+      "hint": "U+2C7C LATIN SUBSCRIPT SMALL LETTER J"
+    },
+    {
+      "id": "ab536c8b-d426-5577-b73c-1d577a9525c9",
+      "word": "ₖ",
+      "reading": "subk",
+      "hint": "U+2096 LATIN SUBSCRIPT SMALL LETTER K"
+    },
+    {
+      "id": "08b7ee3c-9ab1-5b28-98ca-1cd3ab4f4432",
+      "word": "ₗ",
+      "reading": "subl",
+      "hint": "U+2097 LATIN SUBSCRIPT SMALL LETTER L"
+    },
+    {
+      "id": "f65274b7-5f91-53cd-b180-a1d4f0e8c02d",
+      "word": "ₘ",
+      "reading": "subm",
+      "hint": "U+2098 LATIN SUBSCRIPT SMALL LETTER M"
+    },
+    {
+      "id": "661c3912-a7d4-56b1-aa7c-8d69d0503f6f",
+      "word": "ₙ",
+      "reading": "subn",
+      "hint": "U+2099 LATIN SUBSCRIPT SMALL LETTER N"
+    },
+    {
+      "id": "0caa3296-6909-5a19-8358-f719847f4ccd",
+      "word": "ₒ",
+      "reading": "subo",
+      "hint": "U+2092 LATIN SUBSCRIPT SMALL LETTER O"
+    },
+    {
+      "id": "242a9da0-801d-515c-9fe1-80a9f4c78267",
+      "word": "ₚ",
+      "reading": "subp",
+      "hint": "U+209A LATIN SUBSCRIPT SMALL LETTER P"
+    },
+    {
+      "id": "228fe707-e859-5e14-8a5c-75e9acbe309d",
+      "word": "ᵣ",
+      "reading": "subr",
+      "hint": "U+1D63 LATIN SUBSCRIPT SMALL LETTER R"
+    },
+    {
+      "id": "3fea390f-1093-55ac-aa32-ea00b66b46ca",
+      "word": "ₛ",
+      "reading": "subs",
+      "hint": "U+209B LATIN SUBSCRIPT SMALL LETTER S"
+    },
+    {
+      "id": "f505dec7-2c26-5885-b629-3dd4e4478902",
+      "word": "ₜ",
+      "reading": "subt",
+      "hint": "U+209C LATIN SUBSCRIPT SMALL LETTER T"
+    },
+    {
+      "id": "8076b5ac-51c9-57bd-9d4b-4c711d7f8ab9",
+      "word": "ᵤ",
+      "reading": "subu",
+      "hint": "U+1D64 LATIN SUBSCRIPT SMALL LETTER U"
+    },
+    {
+      "id": "55e571d0-8693-5350-b4d6-f44b11c6ca01",
+      "word": "ᵥ",
+      "reading": "subv",
+      "hint": "U+1D65 LATIN SUBSCRIPT SMALL LETTER V"
+    },
+    {
+      "id": "1cc89885-53b4-544a-aecc-d229a4a43679",
+      "word": "ₓ",
+      "reading": "subx",
+      "hint": "U+2093 LATIN SUBSCRIPT SMALL LETTER X"
+    },
+    {
+      "id": "49022f02-1fb7-52e3-9e68-d46c76f3c679",
+      "word": "½",
+      "reading": "half",
+      "hint": "U+00BD VULGAR FRACTION ONE HALF"
+    },
+    {
+      "id": "4ce9ea4c-19ae-538f-aaca-7c34519571a1",
+      "word": "¼",
+      "reading": "quarter",
+      "hint": "U+00BC VULGAR FRACTION ONE QUARTER"
+    },
+    {
+      "id": "e50e65d3-43f7-5c96-a6bc-8505ab4acc11",
+      "word": "¾",
+      "reading": "threequarters",
+      "hint": "U+00BE VULGAR FRACTION THREE QUARTERS"
+    },
+    {
+      "id": "773e7ca2-cc24-5f3b-b755-3d4434b4580c",
+      "word": "⅓",
+      "reading": "onethird",
+      "hint": "U+2153 VULGAR FRACTION ONE THIRD"
+    },
+    {
+      "id": "eb95c83f-0468-5aaa-9f1a-d80ffcc8a018",
+      "word": "⅔",
+      "reading": "twothirds",
+      "hint": "U+2154 VULGAR FRACTION TWO THIRDS"
+    },
+    {
+      "id": "650046fc-e7c1-595e-a953-406cd4955bc6",
+      "word": "⅕",
+      "reading": "onefifth",
+      "hint": "U+2155 VULGAR FRACTION ONE FIFTH"
+    },
+    {
+      "id": "dd85ac71-a6df-511e-8489-33f8cc507133",
+      "word": "⅖",
+      "reading": "twofifths",
+      "hint": "U+2156 VULGAR FRACTION TWO FIFTHS"
+    },
+    {
+      "id": "c947233f-fb21-552d-ba49-2d4d1ff876ad",
+      "word": "⅗",
+      "reading": "threefifths",
+      "hint": "U+2157 VULGAR FRACTION THREE FIFTHS"
+    },
+    {
+      "id": "f35b5f74-77fc-5afb-952e-a766b6543663",
+      "word": "⅘",
+      "reading": "fourfifths",
+      "hint": "U+2158 VULGAR FRACTION FOUR FIFTHS"
+    },
+    {
+      "id": "84e328c0-9367-5821-962f-ce3b97161518",
+      "word": "⅙",
+      "reading": "onesixth",
+      "hint": "U+2159 VULGAR FRACTION ONE SIXTH"
+    },
+    {
+      "id": "b9954e92-f051-5893-b1ae-d76226e279fa",
+      "word": "⅚",
+      "reading": "fivesixths",
+      "hint": "U+215A VULGAR FRACTION FIVE SIXTHS"
+    },
+    {
+      "id": "37a6e95b-0226-5005-af6c-bc943213cda9",
+      "word": "⅛",
+      "reading": "oneeighth",
+      "hint": "U+215B VULGAR FRACTION ONE EIGHTH"
+    },
+    {
+      "id": "fcafc32c-8a30-522c-8982-1d37169cf877",
+      "word": "⅜",
+      "reading": "threeeighths",
+      "hint": "U+215C VULGAR FRACTION THREE EIGHTHS"
+    },
+    {
+      "id": "e66535d8-184b-5156-bf6b-8dc9b1a47e0d",
+      "word": "⅝",
+      "reading": "fiveeighths",
+      "hint": "U+215D VULGAR FRACTION FIVE EIGHTHS"
+    },
+    {
+      "id": "f8e129d9-dc93-5bde-8b1a-9ea804f31ce1",
+      "word": "⅞",
+      "reading": "seveneighths",
+      "hint": "U+215E VULGAR FRACTION SEVEN EIGHTHS"
+    },
+    {
+      "id": "e9c996e4-ffc7-5af1-a9b9-32960ee2ca09",
+      "word": "⁄",
+      "reading": "fracslash",
+      "hint": "U+2044 FRACTION SLASH"
+    },
+    {
+      "id": "f7dd598f-c2a3-5e85-937d-e6f6710cc941",
+      "word": "→",
+      "reading": "arrow.r",
+      "hint": "U+2192 RIGHTWARDS ARROW"
+    },
+    {
+      "id": "9d24338b-e26e-5b9b-9df1-ce769ca8da4c",
+      "word": "←",
+      "reading": "arrow.l",
+      "hint": "U+2190 LEFTWARDS ARROW"
+    },
+    {
+      "id": "5de6b77b-ae3c-5902-8a8b-fbf18f972f80",
+      "word": "↑",
+      "reading": "arrow.u",
+      "hint": "U+2191 UPWARDS ARROW"
+    },
+    {
+      "id": "ae9d2d99-67f3-59a2-9a33-5cc25bcf69e3",
+      "word": "↓",
+      "reading": "arrow.d",
+      "hint": "U+2193 DOWNWARDS ARROW"
+    },
+    {
+      "id": "24183489-d048-5367-85ef-8a5d74207b55",
+      "word": "↔",
+      "reading": "arrow.l.r",
+      "hint": "U+2194 LEFT RIGHT ARROW"
+    },
+    {
+      "id": "51e64a98-6211-5ab5-97c3-4c10b5afb4f0",
+      "word": "⇒",
+      "reading": "arrow.r.double",
+      "hint": "U+21D2 RIGHTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "6e86994a-4f31-5284-ac91-36a98fc12c9e",
+      "word": "⇐",
+      "reading": "arrow.l.double",
+      "hint": "U+21D0 LEFTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "a4849565-7301-53aa-9fec-2a6504d3cfa1",
+      "word": "⇔",
+      "reading": "arrow.l.r.double",
+      "hint": "U+21D4 LEFT RIGHT DOUBLE ARROW"
+    },
+    {
+      "id": "c51c4e00-6965-59a6-82c6-51b7037f4cee",
+      "word": "⟶",
+      "reading": "arrow.r.long",
+      "hint": "U+27F6 LONG RIGHTWARDS ARROW"
+    },
+    {
+      "id": "9d1cb78e-c9d8-59ea-b35f-ce629c5a5717",
+      "word": "⟵",
+      "reading": "arrow.l.long",
+      "hint": "U+27F5 LONG LEFTWARDS ARROW"
+    },
+    {
+      "id": "df508a8f-c66c-59b3-b367-64e66a7c5a41",
+      "word": "⟷",
+      "reading": "arrow.l.r.long",
+      "hint": "U+27F7 LONG LEFT RIGHT ARROW"
+    },
+    {
+      "id": "dda3894f-ef77-5cf9-a115-dd048f3ed6e0",
+      "word": "⟹",
+      "reading": "arrow.r.double.long",
+      "hint": "U+27F9 LONG RIGHTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "814ae9e4-e616-5124-afa0-bd4e2fab6642",
+      "word": "⟸",
+      "reading": "arrow.l.double.long",
+      "hint": "U+27F8 LONG LEFTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "4d816653-fec2-57fd-982e-972a4c31cd20",
+      "word": "⟺",
+      "reading": "arrow.l.r.double.long",
+      "hint": "U+27FA LONG LEFT RIGHT DOUBLE ARROW"
+    },
+    {
+      "id": "d542ea11-011b-5bb6-ab9e-01fb5ce99991",
+      "word": "↦",
+      "reading": "arrow.r.bar",
+      "hint": "U+21A6 RIGHTWARDS ARROW FROM BAR"
+    },
+    {
+      "id": "6e2bf531-25cc-5240-8109-5e9fdf5df619",
+      "word": "↤",
+      "reading": "arrow.l.bar",
+      "hint": "U+21A4 LEFTWARDS ARROW FROM BAR"
+    },
+    {
+      "id": "5505c2bf-6d76-5ef7-97a2-a6d6e0709092",
+      "word": "↣",
+      "reading": "arrow.r.tail",
+      "hint": "U+21A3 RIGHTWARDS ARROW WITH TAIL"
+    },
+    {
+      "id": "e02233c2-3a2b-5397-97c3-ac96772f82ae",
+      "word": "↢",
+      "reading": "arrow.l.tail",
+      "hint": "U+21A2 LEFTWARDS ARROW WITH TAIL"
+    },
+    {
+      "id": "01eb0958-7d82-52b7-b88b-ab36ade9c6a2",
+      "word": "↠",
+      "reading": "arrow.r.twohead",
+      "hint": "U+21A0 RIGHTWARDS TWO HEADED ARROW"
+    },
+    {
+      "id": "1082c476-4b1a-5f4b-a55b-2338ad7e236a",
+      "word": "↞",
+      "reading": "arrow.l.twohead",
+      "hint": "U+219E LEFTWARDS TWO HEADED ARROW"
+    },
+    {
+      "id": "478f696e-52e9-5c49-9e23-96b60780c3e5",
+      "word": "≤",
+      "reading": "lt.eq",
+      "hint": "U+2264 LESS-THAN OR EQUAL TO"
+    },
+    {
+      "id": "94ed45ee-bc9b-5195-9ac1-99aa1ecdbfe8",
+      "word": "≥",
+      "reading": "gt.eq",
+      "hint": "U+2265 GREATER-THAN OR EQUAL TO"
+    },
+    {
+      "id": "66f3e85b-c7da-54b0-a89b-4e97af38c717",
+      "word": "≠",
+      "reading": "eq.not",
+      "hint": "U+2260 NOT EQUAL TO"
+    },
+    {
+      "id": "f3bb2c64-24ad-57b9-ac19-5a6e8c9eb7f0",
+      "word": "≉",
+      "reading": "approx.not",
+      "hint": "U+2249 NOT ALMOST EQUAL TO"
+    },
+    {
+      "id": "4badbd29-70ab-5bb9-b6c4-65c3be3a3a7f",
+      "word": "≊",
+      "reading": "approx.eq",
+      "hint": "U+224A ALMOST EQUAL OR EQUAL TO"
+    },
+    {
+      "id": "3d295025-bad2-5137-b492-e627dfe05b5f",
+      "word": "≃",
+      "reading": "tilde.eq",
+      "hint": "U+2243 ASYMPTOTICALLY EQUAL TO"
+    },
+    {
+      "id": "9d7eb6af-24e7-50ba-b79c-130eede047b6",
+      "word": "≅",
+      "reading": "tilde.equiv",
+      "hint": "U+2245 APPROXIMATELY EQUAL TO"
+    },
+    {
+      "id": "d02c8cd4-6385-57a0-94eb-9d3bb0c28d56",
+      "word": "≢",
+      "reading": "equiv.not",
+      "hint": "U+2262 NOT IDENTICAL TO"
+    },
+    {
+      "id": "907e7dd9-3a7b-5390-b41c-47862e8f57fc",
+      "word": "∟",
+      "reading": "angle.right",
+      "hint": "U+221F RIGHT ANGLE"
+    },
+    {
+      "id": "db067f8e-aed7-555a-b8a6-17f16ed34b36",
+      "word": "∡",
+      "reading": "angle.arc",
+      "hint": "U+2221 MEASURED ANGLE"
+    },
+    {
+      "id": "b311f5cf-23a5-5516-a0f4-56341e762f1f",
+      "word": "∢",
+      "reading": "angle.spheric",
+      "hint": "U+2222 SPHERICAL ANGLE"
+    },
+    {
+      "id": "dfa20a58-27d8-5d7a-8c9c-146709a291bd",
+      "word": "±",
+      "reading": "plus.minus",
+      "hint": "U+00B1 PLUS-MINUS SIGN"
+    },
+    {
+      "id": "6936bdd0-53cb-5e7a-8635-4fc116b3946f",
+      "word": "∓",
+      "reading": "minus.plus",
+      "hint": "U+2213 MINUS-OR-PLUS SIGN"
+    },
+    {
+      "id": "c5f815c4-b5e8-5072-b408-b498306d6d84",
+      "word": "⋀",
+      "reading": "and.big",
+      "hint": "U+22C0 N-ARY LOGICAL AND"
+    },
+    {
+      "id": "8c52df45-1695-5f2a-bff4-f57c782647fb",
+      "word": "⋁",
+      "reading": "or.big",
+      "hint": "U+22C1 N-ARY LOGICAL OR"
+    },
+    {
+      "id": "bc7d243b-22b9-5b28-956c-fa76e889cb18",
+      "word": "≠",
+      "reading": "!=",
+      "hint": "U+2260 NOT EQUAL TO"
+    },
+    {
+      "id": "763c789a-77be-5c2d-babc-a6b29baadda9",
+      "word": "≤",
+      "reading": "<=",
+      "hint": "U+2264 LESS-THAN OR EQUAL TO"
+    },
+    {
+      "id": "8ca62991-ba6d-58af-bedd-455f6305bbdc",
+      "word": "≥",
+      "reading": ">=",
+      "hint": "U+2265 GREATER-THAN OR EQUAL TO"
+    },
+    {
+      "id": "5b7ed8da-2c93-5ea7-ae28-620b88d08b08",
+      "word": "≈",
+      "reading": "~~",
+      "hint": "U+2248 ALMOST EQUAL TO"
+    },
+    {
+      "id": "d03fc831-9a7e-5e2d-b2a1-cc2e3e0485ce",
+      "word": "≅",
+      "reading": "~=",
+      "hint": "U+2245 APPROXIMATELY EQUAL TO"
+    },
+    {
+      "id": "dcaafbed-afe8-59eb-91af-991f07f4d508",
+      "word": "≡",
+      "reading": "-=",
+      "hint": "U+2261 IDENTICAL TO"
+    },
+    {
+      "id": "06babadf-2e35-5f03-b21e-545965599f40",
+      "word": "⇒",
+      "reading": "=>",
+      "hint": "U+21D2 RIGHTWARDS DOUBLE ARROW"
+    },
+    {
+      "id": "67ba5460-6816-55c2-89bb-ae04a2c4ea53",
+      "word": "⇔",
+      "reading": "<=>",
+      "hint": "U+21D4 LEFT RIGHT DOUBLE ARROW"
+    },
+    {
+      "id": "427b84c7-8669-5e86-a56b-da9f4fa58ac1",
+      "word": "→",
+      "reading": "->",
+      "hint": "U+2192 RIGHTWARDS ARROW"
+    },
+    {
+      "id": "2a301e47-3e38-5de6-bf3a-5bc5a684f62d",
+      "word": "←",
+      "reading": "<-",
+      "hint": "U+2190 LEFTWARDS ARROW"
+    },
+    {
+      "id": "5726c539-fcdd-5129-a514-08382a2c1857",
+      "word": "↔",
+      "reading": "<->",
+      "hint": "U+2194 LEFT RIGHT ARROW"
+    },
+    {
+      "id": "4ddf5af8-674b-582c-90e8-70ee74f28b1e",
+      "word": "↦",
+      "reading": "|->",
+      "hint": "U+21A6 RIGHTWARDS ARROW FROM BAR"
+    },
+    {
+      "id": "9856df45-50b7-5ee2-a828-22b3346bdea6",
+      "word": "∉",
+      "reading": "!in",
+      "hint": "U+2209 NOT AN ELEMENT OF"
+    },
+    {
+      "id": "6690a110-a789-5197-b459-1cda14b96e0f",
+      "word": "≺",
+      "reading": "-<",
+      "hint": "U+227A PRECEDES"
+    },
+    {
+      "id": "ce0d8be7-07ec-5388-96ad-4473f9f653c4",
+      "word": "≻",
+      "reading": ">-",
+      "hint": "U+227B SUCCEEDS"
+    },
+    {
+      "id": "306dec22-946c-5531-941f-47914e7f5cfc",
+      "word": "≼",
+      "reading": "-<=",
+      "hint": "U+227C PRECEDES OR EQUAL TO"
+    },
+    {
+      "id": "15b546bd-97d7-50d4-a08c-32e58d4b2425",
+      "word": "≽",
+      "reading": ">-=",
+      "hint": "U+227D SUCCEEDS OR EQUAL TO"
+    },
+    {
+      "id": "315b2ee1-757f-5ed3-8285-1ce17d9e9089",
+      "word": "±",
+      "reading": "+-",
+      "hint": "U+00B1 PLUS-MINUS SIGN"
+    },
+    {
+      "id": "22669781-2303-53be-925b-4afe04be1d39",
+      "word": "∓",
+      "reading": "-+",
+      "hint": "U+2213 MINUS-OR-PLUS SIGN"
+    },
+    {
+      "id": "63288e1d-6d89-50bd-9438-ea66e338e61f",
+      "word": "∗",
+      "reading": "**",
+      "hint": "U+2217 ASTERISK OPERATOR"
+    },
+    {
+      "id": "1dd93448-92c8-578c-9476-8a708b3a3b9d",
+      "word": "⋆",
+      "reading": "***",
+      "hint": "U+22C6 STAR OPERATOR"
+    },
+    {
+      "id": "534de4fa-6e46-5b2c-9cf6-8586e485fd4a",
+      "word": "∘",
+      "reading": "@",
+      "hint": "U+2218 RING OPERATOR"
+    },
+    {
+      "id": "22809bac-7421-5c70-9f97-e7d58f7aec31",
+      "word": "⊕",
+      "reading": "o+",
+      "hint": "U+2295 CIRCLED PLUS"
+    },
+    {
+      "id": "551f15ca-cde1-54fd-ba81-a52710f51ef6",
+      "word": "⊗",
+      "reading": "ox",
+      "hint": "U+2297 CIRCLED TIMES"
+    },
+    {
+      "id": "ae652755-e63a-5545-840d-4c3c7e421bec",
+      "word": "⊙",
+      "reading": "o.",
+      "hint": "U+2299 CIRCLED DOT OPERATOR"
+    },
+    {
+      "id": "1f6678a3-5b97-5100-a58b-fe8b0e6fcf25",
+      "word": "∧",
+      "reading": "^^",
+      "hint": "U+2227 LOGICAL AND"
+    },
+    {
+      "id": "609eae9c-82d3-5982-adb8-225c7e6b68fe",
+      "word": "∨",
+      "reading": "vv",
+      "hint": "U+2228 LOGICAL OR"
+    },
+    {
+      "id": "53d3080c-bb48-5b71-9327-bbf60adb2a95",
+      "word": "⋀",
+      "reading": "^^^",
+      "hint": "U+22C0 N-ARY LOGICAL AND"
+    },
+    {
+      "id": "be4bd4c1-83dd-500b-ac7d-ec4061d8d948",
+      "word": "⋁",
+      "reading": "vvv",
+      "hint": "U+22C1 N-ARY LOGICAL OR"
+    },
+    {
+      "id": "43b7ae61-f4fa-5e12-a023-0e26fa839db2",
+      "word": "∩",
+      "reading": "nn",
+      "hint": "U+2229 INTERSECTION"
+    },
+    {
+      "id": "de04d149-73b4-5360-af08-9171adbbebd0",
+      "word": "∪",
+      "reading": "uu",
+      "hint": "U+222A UNION"
+    },
+    {
+      "id": "b5d8005c-6e3d-57df-89cf-b2f9dfb60094",
+      "word": "⋂",
+      "reading": "nnn",
+      "hint": "U+22C2 N-ARY INTERSECTION"
+    },
+    {
+      "id": "91d691c8-9487-53b5-bf91-692e3c84badc",
+      "word": "⋃",
+      "reading": "uuu",
+      "hint": "U+22C3 N-ARY UNION"
+    },
+    {
+      "id": "7da6d280-97a6-5326-b054-5066d35b659e",
+      "word": "∅",
+      "reading": "O/",
+      "hint": "U+2205 EMPTY SET"
+    },
+    {
+      "id": "237868b0-54d5-59a3-a73f-849dcf66dd5d",
+      "word": "∴",
+      "reading": ":.",
+      "hint": "U+2234 THEREFORE"
+    },
+    {
+      "id": "95877d72-d099-567f-b443-c76e23d4e780",
+      "word": "∵",
+      "reading": ":'",
+      "hint": "U+2235 BECAUSE"
+    },
+    {
+      "id": "e80436e8-9818-506e-b90d-0774667f6c3f",
+      "word": "∠",
+      "reading": "/_",
+      "hint": "U+2220 ANGLE"
+    },
+    {
+      "id": "79012f53-bfcb-554f-a9bf-9ec9b37bbc0b",
+      "word": "△",
+      "reading": "/_\\",
+      "hint": "U+25B3 WHITE UP-POINTING TRIANGLE"
+    },
+    {
+      "id": "022e1271-6a6e-5df3-9d5e-2812d8d138f7",
+      "word": "⌊",
+      "reading": "|__",
+      "hint": "U+230A LEFT FLOOR"
+    },
+    {
+      "id": "05bbd0e1-977e-529a-9fab-3cf3bf7bfbca",
+      "word": "⌋",
+      "reading": "__|",
+      "hint": "U+230B RIGHT FLOOR"
+    },
+    {
+      "id": "0d949491-5d8e-56bd-ac0e-8923f535c940",
+      "word": "⌈",
+      "reading": "|~",
+      "hint": "U+2308 LEFT CEILING"
+    },
+    {
+      "id": "5699fde5-e5a6-5d9d-9a74-ccc7f30baa62",
+      "word": "⌉",
+      "reading": "~|",
+      "hint": "U+2309 RIGHT CEILING"
+    },
+    {
+      "id": "098af820-4c62-5125-8de6-a1755f1fcd11",
+      "word": "⟨",
+      "reading": "(:",
+      "hint": "U+27E8 MATHEMATICAL LEFT ANGLE BRACKET"
+    },
+    {
+      "id": "1fe6d133-f257-5218-af62-ee74b2a5c7c4",
+      "word": "⟩",
+      "reading": ":)",
+      "hint": "U+27E9 MATHEMATICAL RIGHT ANGLE BRACKET"
+    },
+    {
+      "id": "4bfc9851-702b-58d6-bad2-1e2bf6f2147a",
+      "word": "⊢",
+      "reading": "|--",
+      "hint": "U+22A2 RIGHT TACK"
+    },
+    {
+      "id": "77ddb5fd-a37b-5aab-942f-0e52aa8166c5",
+      "word": "⊨",
+      "reading": "|==",
+      "hint": "U+22A8 TRUE"
+    },
+    {
+      "id": "9ab08506-1103-5163-811b-c2fcc31a05a9",
+      "word": "⊥",
+      "reading": "_|_",
+      "hint": "U+22A5 UP TACK"
+    },
+    {
+      "id": "f62603ec-fff8-51e1-bc52-078988068856",
+      "word": "ₐ",
+      "reading": "sublettera",
+      "hint": "U+2090 LATIN SUBSCRIPT SMALL LETTER A"
+    },
+    {
+      "id": "3cafe13c-b921-5ac2-ac23-ad5d533412a3",
+      "word": "ₑ",
+      "reading": "sublettere",
+      "hint": "U+2091 LATIN SUBSCRIPT SMALL LETTER E"
+    },
+    {
+      "id": "9d611777-dca7-5016-b0cf-6cc7cb868877",
+      "word": "ₕ",
+      "reading": "subletterh",
+      "hint": "U+2095 LATIN SUBSCRIPT SMALL LETTER H"
+    },
+    {
+      "id": "719160fe-3eb7-544b-bdbb-81178e5800c5",
+      "word": "ᵢ",
+      "reading": "subletteri",
+      "hint": "U+1D62 LATIN SUBSCRIPT SMALL LETTER I"
+    },
+    {
+      "id": "44d9c839-7d73-5f34-89c4-77a4bb495cba",
+      "word": "ⱼ",
+      "reading": "subletterj",
+      "hint": "U+2C7C LATIN SUBSCRIPT SMALL LETTER J"
+    },
+    {
+      "id": "824c4ed0-de83-53bb-ba93-616d505ae589",
+      "word": "ₖ",
+      "reading": "subletterk",
+      "hint": "U+2096 LATIN SUBSCRIPT SMALL LETTER K"
+    },
+    {
+      "id": "30d6a2f0-de07-5e92-a26c-634f11819dd5",
+      "word": "ₗ",
+      "reading": "subletterl",
+      "hint": "U+2097 LATIN SUBSCRIPT SMALL LETTER L"
+    },
+    {
+      "id": "564e90e0-935e-5dd8-91bd-633e6e1f0f6c",
+      "word": "ₘ",
+      "reading": "subletterm",
+      "hint": "U+2098 LATIN SUBSCRIPT SMALL LETTER M"
+    },
+    {
+      "id": "e842e7cb-53d0-568c-89ba-d8263252d722",
+      "word": "ₙ",
+      "reading": "sublettern",
+      "hint": "U+2099 LATIN SUBSCRIPT SMALL LETTER N"
+    },
+    {
+      "id": "60ce7497-12de-53d8-ac3d-9d7a88c9071f",
+      "word": "ₒ",
+      "reading": "sublettero",
+      "hint": "U+2092 LATIN SUBSCRIPT SMALL LETTER O"
+    },
+    {
+      "id": "db0947ab-cd06-5b49-8f88-8ec1f90cf4d8",
+      "word": "ₚ",
+      "reading": "subletterp",
+      "hint": "U+209A LATIN SUBSCRIPT SMALL LETTER P"
+    },
+    {
+      "id": "4b5752a0-60bc-57af-b9e2-9dee9044b657",
+      "word": "ᵣ",
+      "reading": "subletterr",
+      "hint": "U+1D63 LATIN SUBSCRIPT SMALL LETTER R"
+    },
+    {
+      "id": "343ec1ad-99bc-5e0a-a482-a9a3e0cc2d43",
+      "word": "ₛ",
+      "reading": "subletters",
+      "hint": "U+209B LATIN SUBSCRIPT SMALL LETTER S"
+    },
+    {
+      "id": "12ef1d80-8e67-50e6-a913-31372cf79a26",
+      "word": "ₜ",
+      "reading": "sublettert",
+      "hint": "U+209C LATIN SUBSCRIPT SMALL LETTER T"
+    },
+    {
+      "id": "9591ec9f-a7ec-5f7a-9250-972dd865a63f",
+      "word": "ᵤ",
+      "reading": "subletteru",
+      "hint": "U+1D64 LATIN SUBSCRIPT SMALL LETTER U"
+    },
+    {
+      "id": "26094bdc-ca2e-53fe-a26d-7d1f01b5551c",
+      "word": "ᵥ",
+      "reading": "subletterv",
+      "hint": "U+1D65 LATIN SUBSCRIPT SMALL LETTER V"
+    },
+    {
+      "id": "e7eb4e2e-b8a9-5382-8b01-e7bcb4929db0",
+      "word": "ₓ",
+      "reading": "subletterx",
+      "hint": "U+2093 LATIN SUBSCRIPT SMALL LETTER X"
+    },
+    {
+      "id": "1bdc7f58-028c-5a24-b8a3-23b87c82b380",
+      "word": "½",
+      "reading": "1/2",
+      "hint": "U+00BD VULGAR FRACTION ONE HALF"
+    },
+    {
+      "id": "8a2b68a7-7e67-5819-87d0-9791ae03e89c",
+      "word": "⅓",
+      "reading": "1/3",
+      "hint": "U+2153 VULGAR FRACTION ONE THIRD"
+    },
+    {
+      "id": "d4e2182c-183d-51c7-adc3-4d861920e661",
+      "word": "⅔",
+      "reading": "2/3",
+      "hint": "U+2154 VULGAR FRACTION TWO THIRDS"
+    },
+    {
+      "id": "66010ba1-9f6c-591e-baa4-7e588e38c4f0",
+      "word": "¼",
+      "reading": "1/4",
+      "hint": "U+00BC VULGAR FRACTION ONE QUARTER"
+    },
+    {
+      "id": "1531b315-86b9-5088-9fd4-3ff907f88041",
+      "word": "¾",
+      "reading": "3/4",
+      "hint": "U+00BE VULGAR FRACTION THREE QUARTERS"
+    },
+    {
+      "id": "1e81d034-b5cf-53e1-8ab9-fcb99f9f3717",
+      "word": "⅕",
+      "reading": "1/5",
+      "hint": "U+2155 VULGAR FRACTION ONE FIFTH"
+    },
+    {
+      "id": "6abfdd0b-f9f1-5ec2-bc4b-c6f3522e5f1f",
+      "word": "⅖",
+      "reading": "2/5",
+      "hint": "U+2156 VULGAR FRACTION TWO FIFTHS"
+    },
+    {
+      "id": "097e4611-8935-54e0-9b6a-91b6eba1421c",
+      "word": "⅗",
+      "reading": "3/5",
+      "hint": "U+2157 VULGAR FRACTION THREE FIFTHS"
+    },
+    {
+      "id": "580d3a41-b094-5a6e-9627-8b9ef63aba5b",
+      "word": "⅘",
+      "reading": "4/5",
+      "hint": "U+2158 VULGAR FRACTION FOUR FIFTHS"
+    },
+    {
+      "id": "a93127f6-29cb-5c7c-b12e-4a558ee130c5",
+      "word": "⅙",
+      "reading": "1/6",
+      "hint": "U+2159 VULGAR FRACTION ONE SIXTH"
+    },
+    {
+      "id": "aa9a403d-5486-56e8-bdf9-bd067df03002",
+      "word": "⅚",
+      "reading": "5/6",
+      "hint": "U+215A VULGAR FRACTION FIVE SIXTHS"
+    },
+    {
+      "id": "4ac51a13-0984-5c1a-bd05-53150172e188",
+      "word": "⅛",
+      "reading": "1/8",
+      "hint": "U+215B VULGAR FRACTION ONE EIGHTH"
+    },
+    {
+      "id": "9180c730-fccf-5e24-ab33-0f297751099b",
+      "word": "⅜",
+      "reading": "3/8",
+      "hint": "U+215C VULGAR FRACTION THREE EIGHTHS"
+    },
+    {
+      "id": "96689d12-d377-5d24-9929-0093f6dc465a",
+      "word": "⅝",
+      "reading": "5/8",
+      "hint": "U+215D VULGAR FRACTION FIVE EIGHTHS"
+    },
+    {
+      "id": "6a5696e5-a8e8-5428-9f7b-b325346cfe0b",
+      "word": "⅞",
+      "reading": "7/8",
+      "hint": "U+215E VULGAR FRACTION SEVEN EIGHTHS"
+    },
+    {
+      "id": "e2c7c7cc-ce01-5b87-8a83-33cb78dde824",
+      "word": "≰",
+      "reading": "notleq",
+      "hint": "U+2270 NEITHER LESS-THAN NOR EQUAL TO"
+    },
+    {
+      "id": "eb3d3137-2a2d-516b-a2db-7fdbf5b2b280",
+      "word": "≰",
+      "reading": "nleq",
+      "hint": "U+2270 NEITHER LESS-THAN NOR EQUAL TO"
+    },
+    {
+      "id": "9f63a183-cd31-5c9d-8598-99515fc62893",
+      "word": "≱",
+      "reading": "notgeq",
+      "hint": "U+2271 NEITHER GREATER-THAN NOR EQUAL TO"
+    },
+    {
+      "id": "8b334da1-6654-516b-8917-9b41c3a0ea9a",
+      "word": "≱",
+      "reading": "ngeq",
+      "hint": "U+2271 NEITHER GREATER-THAN NOR EQUAL TO"
+    },
+    {
+      "id": "5c879114-3405-5e6a-9286-c9e70fbf8039",
+      "word": "≰",
+      "reading": "lt.eq.not",
+      "hint": "U+2270 NEITHER LESS-THAN NOR EQUAL TO"
+    },
+    {
+      "id": "abaa9dff-362b-518f-a108-e735dc4b6bab",
+      "word": "≱",
+      "reading": "gt.eq.not",
+      "hint": "U+2271 NEITHER GREATER-THAN NOR EQUAL TO"
+    }
+  ]
+}
