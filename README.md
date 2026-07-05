@@ -16,6 +16,28 @@ alpha     -> α
 Gamma     -> Γ
 ```
 
+日本語IMEをひらがな/全角入力のまま使う場合は、全項目に付く `M` prefix 付きの読みが使えます。
+元の読みの大文字小文字は保持します。
+
+```text
+Malpha       -> α
+MAlpha       -> Α
+Mrightarrow  -> →
+MRightarrow  -> ⇒
+M->          -> →
+M－＞        -> →
+Mー＞        -> →
+```
+
+よく使う一部の読みは、prefix なしの先頭大文字 alias も入ります。
+
+```text
+Land    -> ∧
+Forall  -> ∀
+Exists  -> ∃
+Sqrt    -> √
+```
+
 ## 同梱されている生成済みファイル
 
 | パス                                                     | 用途                            | 形式                                                |
@@ -26,7 +48,7 @@ Gamma     -> Γ
 | `dist/azookey/math_symbols_azookeymac.plist`             | azooKey for macOS               | `defaults import` 用 plist                          |
 | `dist/azookey/math_symbols_azookey_items.json`           | azooKey 確認用                  | plist 内に格納する JSON payload                     |
 
-現在の登録数は 783 件です。
+現在の登録数は 1846 件です。
 
 ## 使い方
 
@@ -59,7 +81,7 @@ defaults import dev.ensan.inputmethod.azooKeyMac dist/azookey/math_symbols_azook
 
 | カラム         | 意味                                                 |
 | -------------- | ---------------------------------------------------- |
-| `reading`      | 入力する ASCII 名。例: `land`, `arrow.r`, `RR`       |
+| `reading`      | 入力する基本読み。例: `land`, `arrow.r`, `RR`, `^^`  |
 | `symbol`       | 変換候補として出す記号                               |
 | `msime_pos`    | Microsoft IME 用の品詞。既定は `短縮よみ`            |
 | `google_pos`   | Google 日本語入力 / Mozc 用の品詞。既定は `短縮よみ` |
@@ -118,3 +140,5 @@ math-symbol-ime-dict/
 - 生成結果を再現しやすいよう、azooKey の `id` はランダム UUID ではなく `reading + symbol` から生成した UUIDv5 にしています。
 - Google 日本語入力 / Mozc は UTF-8 TSV、Microsoft IME は UTF-16 LE BOM 付き TSV を生成します。
 - 記号名は AsciiMath でよく使われる `land`, `lor`, `sqrt`, `subseteq` 系と、Typst 風の `arrow.r`, `gt.eq`, `RR` 系の alias を併用しています。
+- 生成時に、日本語IMEのひらがな/全角入力中でも使いやすい読みを追加します。全項目に `M` prefix 付きの読みを追加し、記号を含む読みには全角記号版も追加します。例: `alpha` から `Malpha`、`Alpha` から `MAlpha`、`arrow.r` から `Marrow.r` / `Marrow．r`、`->` から `M->` / `M－＞` / `Mー＞`。
+- 使用頻度が高い一部の読みだけ、prefix なしの先頭大文字 alias も追加します。例: `land` から `Land`、`forall` から `Forall`、`sqrt` から `Sqrt`。`Alpha` や `Rightarrow` のような既存の大文字読みと衝突する alias は追加しません。

@@ -24,6 +24,109 @@ REQUIRED_COLUMNS = {
 }
 AZOOKEY_MAC_PREF_KEY = "dev.ensan.inputmethod.azooKeyMac.preference.user_dictionary_temporal2"
 AZOOKEY_NAMESPACE = uuid.UUID("695b8a79-512d-4701-aa4b-e079246c8ae9")
+IME_ALIAS_PREFIX = "M"
+FULLWIDTH_ASCII = str.maketrans({chr(code): chr(code + 0xFEE0) for code in range(0x21, 0x7F)})
+FULLWIDTH_NONLETTERS = str.maketrans(
+    {chr(code): chr(code + 0xFEE0) for code in range(0x21, 0x7F) if not chr(code).isalpha()}
+)
+FULLWIDTH_HYPHEN_MINUS = "\uff0d"
+FULLWIDTH_REVERSE_SOLIDUS = "\uff3c"
+PROLONGED_SOUND_MARK = "\u30fc"
+YEN_SIGN = "\uffe5"
+COMMON_NAKED_ALIAS_READINGS = frozenset(
+    {
+        "land",
+        "lor",
+        "lnot",
+        "forall",
+        "exists",
+        "nexists",
+        "implies",
+        "impliedby",
+        "iff",
+        "mapsto",
+        "top",
+        "bot",
+        "vdash",
+        "models",
+        "therefore",
+        "because",
+        "neq",
+        "noteq",
+        "leq",
+        "geq",
+        "approx",
+        "cong",
+        "equiv",
+        "prop",
+        "parallel",
+        "perp",
+        "mid",
+        "notin",
+        "subset",
+        "subseteq",
+        "supset",
+        "supseteq",
+        "cup",
+        "cap",
+        "bigcup",
+        "bigcap",
+        "setminus",
+        "emptyset",
+        "pm",
+        "mp",
+        "times",
+        "mul",
+        "div",
+        "cdot",
+        "dot",
+        "circ",
+        "compose",
+        "oplus",
+        "otimes",
+        "sum",
+        "prod",
+        "sqrt",
+        "root",
+        "integral",
+        "int",
+        "partial",
+        "nabla",
+        "infty",
+        "rarr",
+        "larr",
+        "harr",
+        "uarr",
+        "darr",
+        "longto",
+        "leadsto",
+        "langle",
+        "rangle",
+        "lceil",
+        "rceil",
+        "lfloor",
+        "rfloor",
+        "ldots",
+        "dots",
+        "cdots",
+        "prime",
+        "degree",
+        "angle",
+        "triangle",
+        "square",
+        "diamond",
+        "checkmark",
+        "aleph",
+        "beth",
+        "realpart",
+        "imagpart",
+        "differentiald",
+        "notleq",
+        "nleq",
+        "notgeq",
+        "ngeq",
+    }
+)
 
 
 @dataclass(frozen=True, slots=True)
@@ -68,23 +171,107 @@ def read_source(path: Path) -> list[Entry]:
         if missing:
             joined = ", ".join(sorted(missing))
             raise ValueError(f"source CSV is missing required column(s): {joined}")
-        entries = [Entry.from_row(row, reader.line_num) for row in reader]
+        source_entries = [Entry.from_row(row, reader.line_num) for row in reader]
+    validate_entries(source_entries)
+    entries = expand_ime_friendly_aliases(source_entries)
     validate_entries(entries)
     return entries
 
 
+def expand_ime_friendly_aliases(entries: Sequence[Entry]) -> list[Entry]:
+    """Add human-friendly readings for Japanese IME full-width mode."""
+    expanded: list[Entry] = []
+    seen: set[tuple[str, str]] = set()
+
+    def add(entry: Entry, reading: str) -> None:
+        candidate = Entry(
+            reading=reading,
+            symbol=entry.symbol,
+            msime_pos=entry.msime_pos,
+            google_pos=entry.google_pos,
+            azookey_hint=entry.azookey_hint,
+            comment=entry.comment,
+        )
+        key = (candidate.reading, candidate.symbol)
+        if key not in seen:
+            expanded.append(candidate)
+            seen.add(key)
+
+    for entry in entries:
+        add(entry, entry.reading)
+        for reading in _ime_friendly_readings(entry.reading):
+            add(entry, reading)
+
+    return expanded
+
+
+def _ime_friendly_readings(reading: str) -> list[str]:
+    aliases: list[str] = []
+
+    if reading in COMMON_NAKED_ALIAS_READINGS:
+        alpha_alias = _capitalize_first_ascii_lower(reading)
+        if alpha_alias is not None:
+            aliases.append(alpha_alias)
+
+    if _is_symbolic_reading(reading):
+        aliases.extend(_fullwidth_variants(reading, translate_letters=True))
+    elif reading[:1].isascii() and reading[:1].isupper():
+        aliases.extend(_fullwidth_variants(reading, translate_letters=False))
+
+    prefixed = f"{IME_ALIAS_PREFIX}{reading}"
+    aliases.append(prefixed)
+    aliases.extend(_fullwidth_variants(prefixed, translate_letters=False))
+
+    return aliases
+
+
+def _fullwidth_variants(reading: str, *, translate_letters: bool) -> list[str]:
+    table = FULLWIDTH_ASCII if translate_letters else FULLWIDTH_NONLETTERS
+    fullwidth = reading.translate(table)
+    aliases: list[str] = []
+    if fullwidth != reading:
+        aliases.append(fullwidth)
+        if FULLWIDTH_HYPHEN_MINUS in fullwidth:
+            aliases.append(fullwidth.replace(FULLWIDTH_HYPHEN_MINUS, PROLONGED_SOUND_MARK))
+        if FULLWIDTH_REVERSE_SOLIDUS in fullwidth:
+            aliases.append(fullwidth.replace(FULLWIDTH_REVERSE_SOLIDUS, YEN_SIGN))
+
+    return aliases
+
+
+def _is_symbolic_reading(reading: str) -> bool:
+    return not any(char.isascii() and char.isalpha() for char in reading)
+
+
+def _capitalize_first_ascii_lower(reading: str) -> str | None:
+    for index, char in enumerate(reading):
+        if char.isascii() and char.isalpha():
+            if char.islower():
+                return f"{reading[:index]}{char.upper()}{reading[index + 1 :]}"
+            return None
+    return None
+
+
 def validate_entries(entries: Sequence[Entry]) -> None:
-    """Validate duplicate keys and basic field constraints."""
+    """Validate duplicate keys and ambiguous readings."""
     seen: set[tuple[str, str]] = set()
     duplicates: list[str] = []
+    symbols_by_reading: dict[str, str] = {}
+    conflicts: list[str] = []
     for entry in entries:
         key = (entry.reading, entry.symbol)
         if key in seen:
             duplicates.append(f"{entry.reading!r}->{entry.symbol!r}")
         seen.add(key)
+        previous_symbol = symbols_by_reading.setdefault(entry.reading, entry.symbol)
+        if previous_symbol != entry.symbol:
+            conflicts.append(f"{entry.reading!r}->{previous_symbol!r}/{entry.symbol!r}")
     if duplicates:
         sample = ", ".join(duplicates[:10])
         raise ValueError(f"duplicate reading/symbol pairs: {sample}")
+    if conflicts:
+        sample = ", ".join(conflicts[:10])
+        raise ValueError(f"ambiguous readings: {sample}")
 
 
 def _tab_lines(rows: Iterable[Sequence[str]]) -> str:
