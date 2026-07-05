@@ -1,35 +1,28 @@
 # math-symbol-ime-dict
 
-数学記号を ASCII Math / Typst 風の名前で入力するためのユーザー辞書です。
-`data/math_symbols.csv` を唯一のソースにして、Microsoft IME、Google 日本語入力 / Mozc、azooKey for macOS 用のファイルを生成します。
+数学記号を日本語IMEのユーザー辞書で入力するための辞書です。
+`data/math_symbols.csv` をソースにして、Microsoft IME、Google 日本語入力 / Mozc、azooKey for macOS 向けのインポートファイルを生成します。
 
-例:
+生成済み辞書の登録数は 1846 件です。
 
-```text
-land      -> ∧
-lor       -> ∨
-forall    -> ∀
-exists    -> ∃
-subseteq  -> ⊆
-RR        -> ℝ
-alpha     -> α
-Gamma     -> Γ
-```
+## 入力方法
 
-日本語IMEをひらがな/全角入力のまま使う場合は、全項目に付く `M` prefix 付きの読みが使えます。
-元の読みの大文字小文字は保持します。
+日本語IMEのひらがな/全角入力中は、全項目に付く `M` prefix 付きの読みを使うのが基本です。
+`M` の後ろは元の読みをそのまま付けるため、大文字小文字の区別も保てます。
 
 ```text
-Malpha       -> α
-MAlpha       -> Α
-Mrightarrow  -> →
-MRightarrow  -> ⇒
-M->          -> →
-M－＞        -> →
-Mー＞        -> →
+Mland      -> ∧
+Mlor       -> ∨
+Mforall    -> ∀
+Mexists    -> ∃
+Msubseteq  -> ⊆
+MRR        -> ℝ
+Malpha     -> α
+MGamma     -> Γ
+MAlpha     -> Α
 ```
 
-よく使う一部の読みは、prefix なしの先頭大文字 alias も入ります。
+よく使う一部の読みには、prefix なしの先頭大文字 alias もあります。
 
 ```text
 Land    -> ∧
@@ -38,19 +31,37 @@ Exists  -> ∃
 Sqrt    -> √
 ```
 
-## 同梱されている生成済みファイル
+記号を含む読みには、全角記号で入力したときの読みも追加されます。
 
-| パス                                                     | 用途                            | 形式                                                |
-| -------------------------------------------------------- | ------------------------------- | --------------------------------------------------- |
-| `dist/msime/math_symbols_msime_utf16le.txt`              | Microsoft IME                   | UTF-16 LE BOM / TSV / `読み<TAB>語句<TAB>品詞`      |
-| `dist/google/math_symbols_google_utf8.tsv`               | Google 日本語入力 / Mozc        | UTF-8 / TSV / `よみ<TAB>単語<TAB>品詞`              |
-| `dist/google/math_symbols_google_utf8_with_comments.tsv` | Google 日本語入力 / Mozc 確認用 | UTF-8 / TSV / `よみ<TAB>単語<TAB>品詞<TAB>コメント` |
-| `dist/azookey/math_symbols_azookeymac.plist`             | azooKey for macOS               | `defaults import` 用 plist                          |
-| `dist/azookey/math_symbols_azookey_items.json`           | azooKey 確認用                  | plist 内に格納する JSON payload                     |
+```text
+M->      -> →
+M－＞    -> →
+Mー＞    -> →
+M1/2     -> ½
+M１／２  -> ½
+```
 
-現在の登録数は 1846 件です。
+`land` や `alpha` のような prefix なしの小文字読みも登録されています。
+これは英数入力時や、ASCII の読みを直接扱えるIME設定向けの互換経路です。
+ひらがなローマ字入力中は `land` が `ぁんd` のようになりやすいため、`Mland` か `Land` を使ってください。
 
-## 使い方
+```text
+land      -> ∧
+alpha     -> α
+rightarrow -> →
+```
+
+`Alpha` や `Rightarrow` のように既存の大文字読みとして意味があるものは、衝突を避けるため prefix なし alias を増やしていません。
+その場合は `Malpha` / `MAlpha` や `Mrightarrow` / `MRightarrow` を使います。
+
+## 取り込み
+
+| IME                         | 使うファイル                                             | 形式                                                |
+| --------------------------- | -------------------------------------------------------- | --------------------------------------------------- |
+| Microsoft IME               | `dist/msime/math_symbols_msime_utf16le.txt`              | UTF-16 LE BOM / TSV / `読み<TAB>語句<TAB>品詞`      |
+| Google 日本語入力 / Mozc    | `dist/google/math_symbols_google_utf8.tsv`               | UTF-8 / TSV / `よみ<TAB>単語<TAB>品詞`              |
+| Google 日本語入力 / Mozc 確認用 | `dist/google/math_symbols_google_utf8_with_comments.tsv` | UTF-8 / TSV / `よみ<TAB>単語<TAB>品詞<TAB>コメント` |
+| azooKey for macOS           | `dist/azookey/math_symbols_azookeymac.plist`             | `defaults import` 用 plist                          |
 
 ### Microsoft IME
 
@@ -60,24 +71,23 @@ Microsoft IME の「ユーザー辞書ツール」を開き、「ツール」→
 
 辞書ツールで対象の辞書を選び、「この辞書にインポート」または「新規辞書にインポート」から `dist/google/math_symbols_google_utf8.tsv` を選択します。
 
-Google 日本語入力では、辞書ツールの列は「よみ」「単語」「品詞」「コメント」です。通常は 3 列版を使い、コメントも保持したい場合だけ 4 列版を試してください。
+コメントも確認したい場合だけ、4列版の `dist/google/math_symbols_google_utf8_with_comments.tsv` を使ってください。
 
 ### azooKey for macOS
 
-`dist/azookey/math_symbols_azookeymac.plist` は azooKey for macOS の設定 plist として生成しています。既存の azooKeyMac ユーザー辞書を置き換える可能性があるため、先にバックアップしてから取り込んでください。
+`dist/azookey/math_symbols_azookeymac.plist` は azooKey for macOS の設定 plist です。
+既存のユーザー辞書を置き換える可能性があるため、先にバックアップしてから取り込んでください。
 
 ```sh
 defaults export dev.ensan.inputmethod.azooKeyMac ~/Desktop/azooKeyMac-backup.plist
 defaults import dev.ensan.inputmethod.azooKeyMac dist/azookey/math_symbols_azookeymac.plist
 ```
 
-その後、azooKey for macOS を再起動してください。
+取り込み後、azooKey for macOS を再起動してください。
 
-注意: azooKey iOS 版の一括インポート形式は、このリポジトリ作成時点で公式に安定した公開仕様としては扱っていません。このターゲットは azooKey for macOS 向けです。
+## 編集と生成
 
-## ソース CSV
-
-`data/math_symbols.csv` が唯一の編集対象です。
+編集対象は `data/math_symbols.csv` です。
 
 | カラム         | 意味                                                 |
 | -------------- | ---------------------------------------------------- |
@@ -88,25 +98,16 @@ defaults import dev.ensan.inputmethod.azooKeyMac dist/azookey/math_symbols_azook
 | `azookey_hint` | azooKey payload の `hint`                            |
 | `comment`      | 確認用コメント。主に Unicode 名                      |
 
-## 生成方法
-
-Python 3.12 以上と `uv` を使います。ランタイム依存は標準ライブラリのみです。
+生成には Python 3.12 以上と `uv` を使います。
+ランタイム依存は標準ライブラリのみです。
 
 ```sh
 uv run python scripts/generate.py
-```
-
-CLI としても実行できます。
-
-```sh
-uv run python scripts/generate.py build
 uv run python scripts/generate.py validate
-uv run python scripts/generate.py build --targets google azookey
+uv run python scripts/generate.py build --targets google google-comments
 ```
 
-## 開発用コマンド
-
-`ruff` と `ty` は `uv` の dependency group として定義しています。
+## 開発
 
 ```sh
 uv sync --group dev
@@ -116,29 +117,10 @@ uv run ty check
 PYTHONPATH=src uv run python -m unittest discover -s tests
 ```
 
-## リポジトリ構成
+## 設計方針
 
-```text
-math-symbol-ime-dict/
-├── data/
-│   └── math_symbols.csv
-├── dist/
-│   ├── azookey/
-│   ├── google/
-│   └── msime/
-├── scripts/
-│   └── generate.py
-├── src/
-│   └── math_symbol_ime_dict/
-├── tests/
-├── pyproject.toml
-└── README.md
-```
-
-## 設計メモ
-
-- 生成結果を再現しやすいよう、azooKey の `id` はランダム UUID ではなく `reading + symbol` から生成した UUIDv5 にしています。
-- Google 日本語入力 / Mozc は UTF-8 TSV、Microsoft IME は UTF-16 LE BOM 付き TSV を生成します。
-- 記号名は AsciiMath でよく使われる `land`, `lor`, `sqrt`, `subseteq` 系と、Typst 風の `arrow.r`, `gt.eq`, `RR` 系の alias を併用しています。
-- 生成時に、日本語IMEのひらがな/全角入力中でも使いやすい読みを追加します。全項目に `M` prefix 付きの読みを追加し、記号を含む読みには全角記号版も追加します。例: `alpha` から `Malpha`、`Alpha` から `MAlpha`、`arrow.r` から `Marrow.r` / `Marrow．r`、`->` から `M->` / `M－＞` / `Mー＞`。
-- 使用頻度が高い一部の読みだけ、prefix なしの先頭大文字 alias も追加します。例: `land` から `Land`、`forall` から `Forall`、`sqrt` から `Sqrt`。`Alpha` や `Rightarrow` のような既存の大文字読みと衝突する alias は追加しません。
+- 基本読みは `data/math_symbols.csv` にだけ書き、IME向け alias は生成時に追加します。
+- 全項目に `M` prefix 付き alias を作り、日本語IME中でも衝突せず入力できる経路を確保します。
+- prefix なしの先頭大文字 alias は、使用頻度が高く、既存の読みと衝突しないものだけに限定します。
+- 同じ読みが複数の記号に向かう場合は生成時にエラーにします。
+- azooKey の `id` は `reading + symbol` から生成した UUIDv5 にして、生成結果が毎回安定するようにしています。
